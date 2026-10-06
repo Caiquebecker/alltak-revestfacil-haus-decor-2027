@@ -4,26 +4,23 @@ Esta é uma apresentação comercial interativa, em HTML, da **proposta de stand
 
 O texto completo do conceito criativo está em [CONCEITO.md](CONCEITO.md).
 
-## Roteiro (29 telas)
+## Roteiro (15 telas)
 
-1. **Abertura**
-2. **A feira:** o que é a Haus Decor, os números de 2025 e por que a feira é o lugar do RevestFácil.
-3. **Alltak na Haus Decor:**
-   - 2025, Harmonize | Revela.
-   - 2026, Casa em Movimento.
-   - O salto de 2027.
-4. **Conceito:**
-   - Desenrola.
-   - A grande ideia e o manifesto.
-   - Os pilares e a nova linguagem.
-   - As mensagens-chave.
-5. **O stand:**
-   - Visão geral com pontos clicáveis.
-   - Planta e setorização.
-   - Os atributos, um a um: testeira, balcão, expositores giratórios, Oficina Desenrola, vitrine curva, lounge, volume e estoque.
-   - Materiais e luz.
-   - Jornada do visitante.
-6. **Próximos passos e encerramento**
+1. **Capa**
+2. **A feira:** Haus Decor Show, edição 2027 e números de 2025.
+3. **Edição 2025:** Harmonize | Revela.
+4. **Edição 2026:** Casa em Movimento.
+5. **2027, o salto:** comparativo 2025 → 2026 → 2027.
+6. **Conceito:** Desenrola.
+7. **Manifesto**
+8. **Pilares do conceito**
+9. **Visão geral e planta:** os pontos numerados levam a cada atributo.
+10. **Testeira e balcão**
+11. **Expositores giratórios e vitrine curva**
+12. **Oficina Desenrola**
+13. **Lounge e volume:** estoque, copa e parede Alltak.
+14. **Próximos passos**
+15. **Encerramento**
 
 ## Estrutura
 
@@ -49,7 +46,7 @@ serve.ps1             servidor local opcional (http://localhost:8766/docs/)
 - Nos slides de visão geral e planta, os pontos numerados levam ao detalhe de cada atributo.
 
 **Outros recursos**
-- Deep link: `#s17` abre a tela 17.
+- Deep link: `#s9` abre a tela 9.
 - Em telas de até 820 px, a apresentação vira rolagem vertical.
 
 ## Fontes dos dados
