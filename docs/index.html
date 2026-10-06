@@ -398,6 +398,33 @@ em.serif{font-style:italic;font-weight:300}
   .duo article>*{opacity:1;transform:none;animation:none!important}
   .duo .photo{height:auto;aspect-ratio:4/3}
 }
+/* slide 2 · feira de design */
+.f2-top{display:grid;grid-template-columns:1fr 1.15fr;gap:calc(var(--u)*3.4);align-items:end;margin-top:calc(var(--u)*1.2)}
+.f2-top .h1{font-size:calc(var(--u)*3.9)}
+.f2-top p{font-size:max(13px,calc(var(--u)*1.02));line-height:1.5}
+.f2{display:grid;grid-template-columns:1fr 1.15fr;gap:calc(var(--u)*3.4);flex:1;min-height:0;margin-top:calc(var(--u)*2)}
+.navy .k{font:500 max(10px,calc(var(--u)*.72))/1 var(--f-m);letter-spacing:.14em;text-transform:uppercase;color:var(--wood2)}
+.aud{display:flex;flex-wrap:wrap;gap:calc(var(--u)*.5);margin-top:calc(var(--u)*.9)}
+.aud span{font:600 max(12px,calc(var(--u)*.92))/1 var(--f-b);padding:.6em .95em;border-radius:99px;border:1px solid rgba(255,255,255,.28)}
+.aud span:first-child,.aud span:nth-child(2){background:var(--wood);border-color:var(--wood)}
+.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:calc(var(--u)*1.2);margin-top:calc(var(--u)*1.8)}
+.mini div{border-top:1px solid rgba(255,255,255,.2);padding-top:calc(var(--u)*.8)}
+.mini b{display:block;font:700 calc(var(--u)*2.5)/1 var(--f-d);letter-spacing:-.03em}
+.mini span span,.mini b span{font:inherit}
+.mini div>span{display:block;font-size:max(11px,calc(var(--u)*.8));line-height:1.35;opacity:.75;margin-top:.45em}
+.signs{display:grid;grid-template-columns:1fr 1fr;gap:calc(var(--u)*.9);min-height:0}
+.sign2{border-radius:calc(var(--u)*.6);padding:calc(var(--u)*1.2) calc(var(--u)*1.3);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
+.sign2 h4{font:700 max(15px,calc(var(--u)*1.3))/1.1 var(--f-d);margin:.45em 0 .35em}
+.sign2 p:last-child{font-size:max(11px,calc(var(--u)*.82));line-height:1.4;opacity:.78}
+.read{display:grid;grid-template-columns:auto 1fr 1fr 1fr;gap:calc(var(--u)*2);align-items:center;margin-top:calc(var(--u)*1.8);padding:calc(var(--u)*1.1) calc(var(--u)*1.6);border-radius:calc(var(--u)*.6);background:var(--paper);color:var(--ink)}
+.read .k{color:var(--wood)}
+.read b{display:block;font:700 max(14px,calc(var(--u)*1.12))/1.15 var(--f-d);color:var(--navy)}
+.read span{display:block;font-size:max(11px,calc(var(--u)*.8));line-height:1.35;color:var(--mute);margin-top:.25em}
+@media (max-width:820px),(max-height:520px) and (max-width:1000px){
+  .f2-top,.f2,.signs,.read{grid-template-columns:1fr;gap:16px}
+  .f2-top .h1{font-size:clamp(30px,8vw,44px)}
+  .mini b{font-size:26px}
+}
 @media (prefers-reduced-motion:reduce){
   .r,.rz,.ribbon path,.journey svg.path path{opacity:1!important;transform:none!important;animation:none!important;stroke-dashoffset:0!important}
   .slide{transition:none}
@@ -465,28 +492,37 @@ em.serif{font-style:italic;font-weight:300}
 
 <!-- 02 · A FEIRA -->
 <section class="slide navy" data-chap="A feira" data-title="Haus Decor Show">
-  <p class="eyebrow r">A feira · Haus Decor Show</p>
-  <div class="fair">
-    <div class="stack">
-      <h2 class="h1 r" style="--d:1">Light · Tech · Design<span class="w">.</span></h2>
-      <p class="r" style="--d:2;opacity:.85">Organizada pela <b>NürnbergMesse Brasil</b>, a mesma promotora da Expo Revestir, a Haus Decor reúne iluminação, móveis e decoração, tecnologia residencial e tintas. É uma feira <b>B2B</b>, para arquitetos, designers, lojistas, construtoras e especificadores. Acontece junto com a Expo Revestir e divide com ela o mesmo fluxo de visitantes.</p>
-      <div class="facts r" style="--d:3">
-        <div><b>22–26 fev 2027</b><span>5ª edição</span></div>
-        <div><b>São Paulo Expo</b><span>Pavilhões 7 e 8</span></div>
-        <div><b>70+ marcas</b><span>Expositoras previstas</span></div>
+  <p class="eyebrow r">A feira · Haus Decor Show 2027 · 22 a 26 fev · São Paulo Expo</p>
+  <div class="f2-top">
+    <h2 class="h1 r" style="--d:1">Uma feira de design, <span class="w">não de balcão</span>.</h2>
+    <p class="r" style="--d:2;opacity:.85">O lema é <b>Light · Tech · Design</b>. Quem visita vem atrás de referência, tendência e repertório para os próximos projetos, e julga a marca pelo conceito antes do preço. A organizadora, NürnbergMesse Brasil, trata a feira como uma curadoria: produz conteúdo, recebe a imprensa e seleciona criadores para cobrir o evento.</p>
+  </div>
+  <div class="f2">
+    <div class="f2-aud r" style="--d:3">
+      <p class="k">Quem circula</p>
+      <div class="aud">
+        <span>Arquitetos</span><span>Designers de interiores</span><span>Lighting designers</span><span>Especificadores</span><span>Lojistas de decoração</span><span>Imprensa e criadores</span>
       </div>
-      <p class="why r" style="--d:4">Na mesma feira, RevestFácil fala com <span class="hl">quem especifica</span> e com <span class="w">quem vende</span>.</p>
+      <div class="mini">
+        <div><b data-count="67344">0</b><span>visitantes únicos em 2025, +21% sobre 2024</span></div>
+        <div><b><span data-count="1248">0</span></b><span>visitantes internacionais, de 68 países</span></div>
+        <div><b><span data-count="67">0</span>%</b><span>do público é feminino</span></div>
+      </div>
     </div>
-    <div class="stats r" style="--d:2">
-      <div class="stat hi"><div class="n"><span data-count="82">0</span><small>mil+</small></div><p>visitações em 2025, somando Haus Decor e Expo Revestir</p></div>
-      <div class="stat"><div class="n"><span data-count="67344">0</span></div><p>visitantes únicos em 2025, <b style="color:#fff">+21%</b> sobre 2024</p></div>
-      <div class="stat"><div class="n"><span data-count="1248">0</span></div><p>visitantes internacionais, de 68 países</p></div>
-      <div class="stat"><div class="n"><span data-count="73">0</span><small>%</small></div><p>do público vem do Sudeste</p></div>
-      <div class="stat"><div class="n"><span data-count="67">0</span><small>%</small></div><p>do público é feminino</p></div>
-      <div class="stat"><div class="n"><span data-count="86">0</span><small>%</small></div><p>dos expositores ficaram satisfeitos com o público</p></div>
+    <div class="signs">
+      <div class="sign2 r" style="--d:3"><p class="k">Tendência</p><h4>Book de Tendências</h4><p>Publicado pela própria feira e enviado à imprensa e à base de profissionais.</p></div>
+      <div class="sign2 r" style="--d:4"><p class="k">Conteúdo</p><h4>Talks, arenas e podcast</h4><p>Em 2026, o espaço Metropolitano teve mais de 160 m² de talks e arenas de conteúdo. Em 2025, o PodHaus gravou 15 episódios na feira.</p></div>
+      <div class="sign2 r" style="--d:5"><p class="k">Influência</p><h4>Criadores e imprensa</h4><p>Em 2025, um grupo de 15 criadores de arquitetura e construção cobriu a feira. A sala de imprensa é assinada por Victor Romansini.</p></div>
+      <div class="sign2 r" style="--d:6"><p class="k">Repercussão</p><h4>A feira vira pauta</h4><p>Em 2025, foram mais de 130 menções espontâneas na mídia e cerca de 1,7 milhão de alcance no Instagram.</p></div>
     </div>
   </div>
-  <p class="src mt2 r" style="--d:5">Fontes: hausdecorshow.com.br · nm-brasil.com.br · relatório pós-show 2025 (NürnbergMesse Brasil). A visitação é publicada somada à Expo Revestir. Os números de 2026 ainda não foram divulgados.</p>
+  <div class="read r" style="--d:7">
+    <p class="k">Leitura 75LAB</p>
+    <div><b>O stand é julgado como projeto.</b><span>A arquitetura e o conceito falam antes do produto.</span></div>
+    <div><b>Quem visita especifica.</b><span>Convencer um arquiteto é entrar em dezenas de casas.</span></div>
+    <div><b>Tudo vira conteúdo.</b><span>O stand precisa ser fotografável e ter o que fazer, não só o que ver.</span></div>
+  </div>
+  <p class="src mt1 r" style="--d:8">Fontes: hausdecorshow.com.br · Book de Tendências 2026 · relatório pós-show 2025 (NürnbergMesse Brasil).</p>
 </section>
 
 <!-- 03 · 2025 -->
