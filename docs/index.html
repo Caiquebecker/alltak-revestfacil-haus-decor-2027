@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Nova Camada · Alltak RevestFácil · Haus Decor 2027</title>
-<meta name="description" content="Proposta de stand Alltak RevestFácil para a Haus Decor Show 2027 · conceito Nova Camada · 75LAB">
+<title>Alltak RevestFácil · Haus Decor 2027</title>
+<meta name="description" content="Proposta de stand Alltak RevestFácil para a Haus Decor Show 2027 · lançamento RevestFácil · 75LAB">
 <meta name="theme-color" content="#F2EBE0">
 <link rel="icon" href="assets/img/brand/rf-v-light.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -425,6 +425,158 @@ em.serif{font-style:italic;font-weight:300}
   .f2-top .h1{font-size:clamp(30px,8vw,44px)}
   .mini b{font-size:26px}
 }
+/* ---- v3 ---- */
+.slide.white{background:#fff}
+/* capa tipográfica */
+.cover2{justify-content:center}
+.cover2 .ribbon{z-index:0}
+.cover2 .c-in{position:relative;z-index:2;display:grid;grid-template-columns:1.25fr .75fr;gap:calc(var(--u)*4);align-items:center}
+.cover2 .h-xl{font-size:calc(var(--u)*8.6);color:var(--navy)}
+.cover2 .h-xl span{color:var(--wood)}
+.cover2 .c-logo{width:82%;justify-self:center}
+.cover2 .meta{position:relative;left:auto;bottom:auto;display:flex;gap:calc(var(--u)*3);margin-top:calc(var(--u)*3.2)}
+.cover2 .meta div{border-left:1px solid var(--line);padding-left:calc(var(--u)*1.2)}
+.cover2 .meta b{display:block;font:700 max(14px,calc(var(--u)*1.25))/1.2 var(--f-d)}
+.cover2 .meta span{font:400 max(10px,calc(var(--u)*.75))/1.4 var(--f-m);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+/* histórico */
+.bigstat{display:flex;align-items:flex-end;gap:calc(var(--u)*1.1);margin-top:calc(var(--u)*1.2)}
+.bigstat b{font:800 calc(var(--u)*8.5)/.78 var(--f-d);letter-spacing:-.05em;color:var(--wood)}
+.bigstat span{font:600 max(13px,calc(var(--u)*1.1))/1.2 var(--f-b);color:var(--navy);padding-bottom:.2em}
+.fix{display:grid;gap:calc(var(--u)*.45);margin-top:calc(var(--u)*1.4)}
+.fix div{display:grid;grid-template-columns:1fr auto 1.2fr;gap:.8em;align-items:center;padding:calc(var(--u)*.55) 0;border-bottom:1px solid var(--line);font-size:max(12px,calc(var(--u)*.92))}
+.fix div::after{content:"";order:2;width:1.6em;height:1px;background:var(--wood)}
+.fix s{order:1;color:var(--mute);text-decoration-color:rgba(93,101,119,.45)}
+.fix b{order:3;color:var(--navy)}
+.alert{margin-top:calc(var(--u)*1.4);padding:calc(var(--u)*1.1) calc(var(--u)*1.3);border-radius:calc(var(--u)*.6);background:var(--navy);color:#fff}
+.alert .eyebrow{color:var(--wood2);margin-bottom:.6em}
+.alert p:last-child{font-size:max(12px,calc(var(--u)*.95));line-height:1.45}
+/* desafio */
+.chal{display:grid;grid-template-columns:repeat(3,1fr);gap:calc(var(--u)*1.2);margin-top:calc(var(--u)*2.2);flex:1;min-height:0}
+.ccard{border-radius:calc(var(--u)*.7);padding:calc(var(--u)*1.6);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
+.ccard h4{font:700 max(17px,calc(var(--u)*1.85))/1.1 var(--f-d);margin:.55em 0 .7em;letter-spacing:-.015em}
+.ccard p:last-child{font-size:max(13px,calc(var(--u)*1.05));line-height:1.5;opacity:.82}
+.tension{display:grid;grid-template-columns:1.15fr repeat(4,1fr);gap:calc(var(--u)*1.6);align-items:center;margin-top:calc(var(--u)*1.6);padding:calc(var(--u)*1.1) calc(var(--u)*1.6);border-radius:calc(var(--u)*.6);background:var(--wood);color:#fff}
+.tension .k{color:#fff;opacity:.9;line-height:1.35}
+.tension b{display:block;font:700 max(14px,calc(var(--u)*1.15))/1.1 var(--f-d)}
+.tension span{display:block;font-size:max(11px,calc(var(--u)*.82));opacity:.9;margin-top:.2em}
+/* manifesto */
+.manif{justify-content:center}
+.mtext{display:grid;grid-template-columns:.9fr 1.3fr;column-gap:calc(var(--u)*5);row-gap:calc(var(--u)*1.1);margin-top:calc(var(--u)*2);align-items:start}
+.mtext p{grid-column:2;font:600 calc(var(--u)*1.65)/1.32 var(--f-d);letter-spacing:-.01em}
+.mtext p:first-child{grid-column:1;grid-row:1 / span 5;font-size:calc(var(--u)*5.6);font-weight:800;line-height:.95;letter-spacing:-.04em}
+.mtext .soft{font-weight:400;opacity:.72}
+/* KV */
+.kvwrap{display:grid;grid-template-columns:1.9fr 1fr;gap:calc(var(--u)*3);flex:1;min-height:0;align-items:center}
+.kvbox{container-type:size;height:100%;display:grid;place-items:center}
+.kv{position:relative;width:min(100cqw,calc(100cqh*16/9));aspect-ratio:16/9;border-radius:calc(var(--u)*.6);overflow:hidden;box-shadow:0 30px 60px -20px rgba(11,26,58,.35);cursor:zoom-in}
+.kv svg{position:absolute;inset:0;width:100%;height:100%}
+.kva{background:#EFE6D8}
+.kvb{background:var(--navy)}
+.kv-t{position:absolute;left:6%;top:9%;z-index:2}
+.kv-t h3{font:800 calc(var(--u)*6.4)/.86 var(--f-d);letter-spacing:-.045em;color:var(--navy)}
+.kv-t h3 span{color:var(--wood)}
+.kv-t p{font:600 calc(var(--u)*1.25)/1.2 var(--f-d);color:var(--navy);margin-top:calc(var(--u)*1.2)}
+.kvb .kv-t h3,.kvb .kv-t p{color:#fff}
+.kv-logo{position:absolute;left:6%;bottom:7%;width:22%;z-index:2}
+.kv-ev{position:absolute;right:4%;top:6%;font:500 calc(var(--u)*.62)/1 var(--f-m);letter-spacing:.12em;text-transform:uppercase;color:var(--navy);z-index:2}
+.kvb .kv-ev{color:rgba(255,255,255,.75)}
+.kva .kv-logo{bottom:8%}
+.kvtxt{display:flex;flex-direction:column;justify-content:center}
+/* vistas */
+.view{padding-bottom:calc(var(--u)*5)}
+.vhead{position:relative;z-index:2}
+.vimg{flex:1;min-height:0;margin-top:calc(var(--u)*.6);cursor:zoom-in}
+.vimg img{width:100%;height:100%;object-fit:contain}
+/* AR */
+.ar{align-items:stretch}
+.ar-slot{flex:1;margin-top:calc(var(--u)*1.6);border:2px dashed rgba(255,255,255,.3);border-radius:calc(var(--u)*1);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:calc(var(--u)*1)}
+.ar-slot svg{width:calc(var(--u)*6);color:var(--wood2)}
+.ar-slot h3{font:700 calc(var(--u)*2.4)/1.1 var(--f-d);letter-spacing:-.02em}
+.ar-slot p{max-width:46ch;opacity:.75}
+/* diferenciais em trio */
+.duo.trio{grid-template-columns:repeat(3,1fr);gap:calc(var(--u)*1.2) calc(var(--u)*2)}
+.duo.trio h3{font-size:max(16px,calc(var(--u)*1.4))}
+/* cronograma */
+.gantt{display:grid;grid-template-columns:minmax(0,1.5fr) repeat(6,1fr);margin-top:calc(var(--u)*1.8);flex:1;min-height:0;align-content:start;row-gap:calc(var(--u)*.3)}
+.gantt .gh{font:500 max(10px,calc(var(--u)*.75))/1 var(--f-m);letter-spacing:.14em;text-transform:uppercase;color:var(--mute);padding:0 0 calc(var(--u)*.7) calc(var(--u)*.5);border-left:1px solid var(--line)}
+.gantt .gh:first-child{border-left:0}
+.gantt .gl{grid-column:1;font-size:max(12px,calc(var(--u)*.9));padding:calc(var(--u)*.45) calc(var(--u)*1) calc(var(--u)*.45) 0;border-top:1px solid var(--line);color:var(--ink)}
+.gantt .gl.hi{font-weight:700;color:var(--navy)}
+.gantt .gt{grid-column:2 / span 6;position:relative;border-top:1px solid var(--line);background:repeating-linear-gradient(90deg,transparent 0 calc(100%/6 - 1px),var(--line) calc(100%/6 - 1px) calc(100%/6))}
+.gantt .gt i{position:absolute;top:22%;bottom:22%;left:calc(var(--s)/6*100%);width:calc((var(--e) - var(--s))/6*100%);border-radius:99px;background:linear-gradient(90deg,var(--navy),var(--blue));transform-origin:left;transform:scaleX(0)}
+.slide.on .gantt .gt i{animation:grow .9s var(--ease) forwards;animation-delay:.5s}
+.gantt .gt i.ev{background:var(--wood);top:10%;bottom:10%}
+@keyframes grow{to{transform:scaleX(1)}}
+@media (max-width:820px),(max-height:520px) and (max-width:1000px){
+  .cover2 .c-in,.kvwrap,.chal,.tension{grid-template-columns:1fr}
+  .cover2 .h-xl{font-size:clamp(46px,13vw,80px)}
+  .cover2 .c-logo{width:60%}
+  .cover2 .meta{flex-wrap:wrap}
+  .bigstat b{font-size:72px}
+  .kvbox{container-type:normal;height:auto}
+  .kv{width:100%}
+  .kv-t h3{font-size:clamp(28px,9vw,44px)}
+  .kv-t p{font-size:12px}
+  .mtext{grid-template-columns:1fr}.mtext p,.mtext p:first-child{grid-column:1;grid-row:auto}.mtext p{font-size:19px}.mtext p:first-child{font-size:36px}
+  .vimg img{height:auto}
+  .ar-slot{min-height:60vh}
+  .duo.trio{grid-template-columns:1fr}
+  .gantt{grid-template-columns:minmax(0,1.6fr) repeat(6,1fr);font-size:11px}
+  .gantt .gl{font-size:11px}
+  .gantt .gt i{transform:none}
+}
+/* linha do tempo da feira */
+.years{display:grid;grid-template-columns:repeat(5,1fr);gap:calc(var(--u)*1.1);margin-top:calc(var(--u)*2.6);flex:1;min-height:0;position:relative;align-items:start}
+.years::before{content:"";position:absolute;left:0;right:0;top:calc(var(--u)*1.55);height:2px;background:linear-gradient(90deg,var(--wood2),var(--wood))}
+.yr{position:relative;padding-top:calc(var(--u)*3.6)}
+.yr::before{content:"";position:absolute;left:0;top:calc(var(--u)*.95);width:calc(var(--u)*1.3);aspect-ratio:1;border-radius:50%;background:var(--paper);border:3px solid var(--wood)}
+.yr>b{display:block;font:800 calc(var(--u)*3.2)/1 var(--f-d);letter-spacing:-.04em;color:var(--navy)}
+.yr .d{display:block;font:500 max(10px,calc(var(--u)*.74))/1 var(--f-m);letter-spacing:.12em;text-transform:uppercase;color:var(--wood);margin:.6em 0 .9em}
+.yr p{font-size:max(12px,calc(var(--u)*.9));line-height:1.45;color:var(--ink)}
+.yr.now{background:var(--navy);color:#fff;border-radius:calc(var(--u)*.7);padding:calc(var(--u)*3.6) calc(var(--u)*1.2) calc(var(--u)*1.2)}
+.yr.now::before{left:calc(var(--u)*1.2);background:var(--wood);border-color:var(--wood2)}
+.yr.now>b,.yr.now p{color:#fff}.yr.now .d{color:var(--wood2)}
+@media (max-width:820px),(max-height:520px) and (max-width:1000px){
+  .years{grid-template-columns:1fr}
+  .years::before{display:none}
+  .yr{padding-top:0}.yr::before{display:none}
+  .yr.now{padding:16px}
+}
+/* galeria da feira */
+.gal-wrap{display:grid;grid-template-columns:1.75fr 1fr;gap:calc(var(--u)*2.6);flex:1;min-height:0}
+.gal{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-template-rows:1fr 1fr 1fr;gap:calc(var(--u)*.7);min-height:0}
+.gal .photo{min-height:0}
+.gal .g1{grid-row:1 / span 2;grid-column:1}
+.gal .photo:nth-child(2){grid-column:2 / span 2}
+.gal .photo:nth-child(5){grid-column:1}
+.gal figcaption{font-size:max(9px,calc(var(--u)*.62))}
+.gal-txt{display:flex;flex-direction:column;justify-content:center;min-height:0}
+.k{font:500 max(10px,calc(var(--u)*.72))/1.2 var(--f-m);letter-spacing:.14em;text-transform:uppercase;color:var(--wood)}
+.why2{margin-top:calc(var(--u)*1.6);padding:calc(var(--u)*1) calc(var(--u)*1.2);border-radius:calc(var(--u)*.5);background:var(--navy);color:#fff;font:700 max(14px,calc(var(--u)*1.15))/1.25 var(--f-d)}
+/* público */
+.pub{display:grid;grid-template-columns:.9fr 1.2fr 1fr;gap:calc(var(--u)*2.4);margin-top:calc(var(--u)*2);flex:1;min-height:0;align-items:start}
+.pub-big{display:grid;gap:calc(var(--u)*1.4)}
+.pub-big>div{padding-bottom:calc(var(--u)*1.2);border-bottom:1px solid rgba(255,255,255,.18)}
+.pub-big>div>b{display:block;font:800 calc(var(--u)*5.6)/.9 var(--f-d);letter-spacing:-.05em;color:var(--wood2)}
+.pub-big p{font-size:max(12px,calc(var(--u)*.95));line-height:1.4;opacity:.85;margin-top:.5em}
+.bars{display:grid;gap:calc(var(--u)*.7);margin-top:calc(var(--u)*1)}
+.bars div{display:grid;grid-template-columns:minmax(0,1.3fr) 1.4fr auto;gap:.8em;align-items:center;font-size:max(12px,calc(var(--u)*.88))}
+.bars i{display:block;height:calc(var(--u)*.9);border-radius:99px;background:rgba(255,255,255,.1);position:relative;overflow:hidden}
+.bars i::after{content:"";position:absolute;inset:0 auto 0 0;width:calc(var(--v)/38*100%);background:linear-gradient(90deg,var(--wood),var(--wood2));border-radius:99px;transform-origin:left;transform:scaleX(0)}
+.slide.on .bars i::after{animation:grow 1s var(--ease) .5s forwards}
+.bars b{font:700 max(12px,calc(var(--u)*.95))/1 var(--f-d);min-width:2.6em;text-align:right}
+.pub-seek .bul{margin-top:calc(var(--u)*1)}
+.bridge{margin-top:calc(var(--u)*1.4);padding:calc(var(--u)*1.1) calc(var(--u)*1.4);border-radius:calc(var(--u)*.6);background:var(--paper);color:var(--ink);font-size:max(13px,calc(var(--u)*1));line-height:1.45}
+.bridge b{color:var(--navy)}
+@media (max-width:820px),(max-height:520px) and (max-width:1000px){
+  .gal-wrap,.pub{grid-template-columns:1fr}
+  .gal{grid-template-columns:1fr 1fr;grid-template-rows:none;grid-auto-rows:140px}
+  .gal .g1{grid-row:span 2;grid-column:1 / span 2}
+  .gal .photo:nth-child(2),.gal .photo:nth-child(5){grid-column:auto}
+  .pub-big>div>b{font-size:52px}
+  .bars i::after{transform:none}
+}
+.gal .photo:nth-child(6){grid-column:2 / span 2}
 @media (prefers-reduced-motion:reduce){
   .r,.rz,.ribbon path,.journey svg.path path{opacity:1!important;transform:none!important;animation:none!important;stroke-dashoffset:0!important}
   .slide{transition:none}
@@ -455,7 +607,7 @@ em.serif{font-style:italic;font-weight:300}
 
 <nav class="menu" id="menu" aria-label="Capítulos" aria-hidden="true">
   <div>
-    <h3>Nova<br>Camada.</h3>
+    <h3>Alltak<br>RevestFácil.</h3>
     <p class="m-sub">Alltak RevestFácil · Haus Decor Show 2027<br>Proposta de stand · 75LAB</p>
   </div>
   <ol id="menuList"></ol>
@@ -468,25 +620,27 @@ em.serif{font-style:italic;font-weight:300}
   <button class="nav-b" id="lbClose" aria-label="Fechar"><svg viewBox="0 0 16 16"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
 </div>
 
-<main id="deck" aria-roledescription="apresentação" aria-label="Nova Camada · proposta de stand Alltak RevestFácil na Haus Decor Show 2027">
+<main id="deck" aria-roledescription="apresentação" aria-label="Alltak RevestFácil · proposta de stand na Haus Decor Show 2027">
 
-<!-- 01 · CAPA -->
-<section class="slide cover" data-chap="Abertura" data-title="Capa">
+<!-- ============ CAPA ============ -->
+<section class="slide cover2" data-chap="Abertura" data-title="Capa">
   <svg class="ribbon" viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">
     <defs><linearGradient id="gw" x1="0" x2="1"><stop offset="0" stop-color="#EBD3B2"/><stop offset=".5" stop-color="#C99460"/><stop offset="1" stop-color="#DDBB92"/></linearGradient></defs>
-    <path d="M-60 860 C 300 850, 520 700, 800 640 S 1300 520, 1700 560" stroke="url(#gw)" stroke-width="46" pathLength="1"/>
-    <path d="M-60 905 C 300 900, 540 760, 820 700 S 1320 590, 1700 620" stroke="#00205C" stroke-width="14" pathLength="1" style="--d:2"/>
+    <path d="M-60 880 C 300 860, 560 700, 860 690 S 1320 560, 1700 470" stroke="url(#gw)" stroke-width="52" pathLength="1"/>
+    <path d="M-60 930 C 320 910, 590 770, 900 760 S 1360 640, 1700 560" stroke="#00205C" stroke-width="16" pathLength="1" style="--d:2"/>
+    <path d="M-60 980 C 340 960, 620 830, 940 830 S 1400 720, 1700 650" stroke="#8F96D8" stroke-width="10" pathLength="1" style="--d:3"/>
   </svg>
-  <img class="hero rz" src="assets/img/stand/perspectiva.webp" alt="Perspectiva do stand Alltak RevestFácil" style="--d:1">
-  <div class="txt">
-    <p class="eyebrow r">Proposta de stand · Haus Decor Show 2027</p>
-    <h1 class="h-xl r mt2" style="--d:1">Nova<br>Camada<span>.</span></h1>
-    <p class="lead r mt2" style="--d:2">Camadas que se abrem sobre o stand para lançar <b>RevestFácil</b>, o revestimento vinílico adesivo da Alltak, e provar, nas mãos de cada visitante, que toda superfície merece uma nova camada.</p>
-  </div>
-  <div class="meta r" style="--d:4">
-    <div><b>22 a 26 fev 2027</b><span>Haus Decor Show</span></div>
-    <div><b>São Paulo Expo</b><span>Pavilhões 7 e 8</span></div>
-    <div><b>Alltak RevestFácil</b><span>Apresentação 75LAB</span></div>
+  <div class="c-in">
+    <div>
+      <p class="eyebrow r">Proposta de stand · Alltak · Haus Decor Show 2027</p>
+      <h1 class="h-xl r mt2" style="--d:1">O lançamento<br>do RevestFácil<span>.</span></h1>
+      <div class="meta r" style="--d:3">
+        <div><b>22 a 26 fev 2027</b><span>Haus Decor Show</span></div>
+        <div><b>São Paulo Expo</b><span>Pavilhões 7 e 8</span></div>
+        <div><b>75LAB</b><span>Apresentação comercial</span></div>
+      </div>
+    </div>
+    <img class="c-logo r" style="--d:2" src="assets/img/brand/rf-v-light.png" alt="Alltak RevestFácil">
   </div>
 </section>
 
@@ -506,7 +660,7 @@ em.serif{font-style:italic;font-weight:300}
       <div class="mini">
         <div><b data-count="67344">0</b><span>visitantes únicos em 2025, +21% sobre 2024</span></div>
         <div><b><span data-count="1248">0</span></b><span>visitantes internacionais, de 68 países</span></div>
-        <div><b><span data-count="67">0</span>%</b><span>do público é feminino</span></div>
+        <div><b>70+</b><span>marcas expositoras previstas em 2027</span></div>
       </div>
     </div>
     <div class="signs">
@@ -525,329 +679,405 @@ em.serif{font-style:italic;font-weight:300}
   <p class="src mt1 r" style="--d:8">Fontes: hausdecorshow.com.br · Book de Tendências 2026 · relatório pós-show 2025 (NürnbergMesse Brasil).</p>
 </section>
 
-<!-- 03 · 2025 -->
-<section class="slide" data-chap="Alltak na Haus Decor" data-title="2025 · Harmonize | Revela">
-  <div class="ed">
-    <figure class="photo contain r" style="--d:1;background:#fff" data-lb data-cap="Haus Decor 2025 · stand Alltak Decor, conceito Harmonize | Revela"><img src="assets/img/edicoes/2025-stand.jpg" alt="Render do stand Alltak Decor na Haus Decor 2025"><figcaption>Haus Decor 2025</figcaption></figure>
-    <div class="txt">
-      <p><span class="year r"><small>Edições anteriores · a estreia</small>2025</span></p>
-      <h2 class="h2 r mt2" style="--d:1">Harmonize <span class="w">|</span> Revela</h2>
-      <p class="mute r small mt1" style="--d:2">"Harmonize quando quiser. Revele quando precisar."</p>
-      <ul class="bul mt2 r" style="--d:3">
-        <li>Primeira participação da Alltak na feira: <b>ilha de 84 m²</b>, com a marca visível em 360°.</li>
-        <li>Quatro ambientes com aplicação ao vivo: cozinha, banheiro, quarto e sala.</li>
-        <li>Ponto sensorial para testar a resistência da superfície.</li>
-        <li>DNA "Wrapping for ALL": moto, guitarras, preto e azul, linhas retas.</li>
+<section class="slide paper" data-chap="A feira" data-title="Últimos anos">
+  <p class="eyebrow r">A feira · como foi nos últimos anos</p>
+  <h2 class="h1 r mt1" style="--d:1;max-width:26ch">Em quatro edições, a Haus Decor virou a vitrine do <span class="w">morar com design</span>.</h2>
+  <div class="years r" style="--d:2">
+    <div class="yr"><b>2023</b><span class="d">14–17 mar</span><p>A feira estreia ao lado da Expo Revestir e reúne iluminação, tintas e tecnologia para a casa.</p></div>
+    <div class="yr"><b>2024</b><span class="d">19–22 mar</span><p>Estreia o <b>Pavilhão de Iluminação</b>, com ciclo de palestras com lighting designers. Mais de 40 expositores. As duas feiras somam mais de 70 mil visitações.</p></div>
+    <div class="yr"><b>2025</b><span class="d">11–14 mar</span><p>Um dia exclusivo para convidados. Mais de 80 expositores e <b>67.344 visitantes únicos</b> (+21%). Estreiam o podcast PodHaus, o Book de Tendências e um grupo de 15 criadores de conteúdo.</p></div>
+    <div class="yr"><b>2026</b><span class="d">9–13 mar</span><p>Pela primeira vez, cinco dias de feira, dois deles só para convidados. O <b>mobiliário</b> estreia, e o espaço Metropolitano soma mais de 160 m² de talks e arenas de conteúdo.</p></div>
+    <div class="yr now"><b>2027</b><span class="d">22–26 fev</span><p>5ª edição, nos pavilhões 7 e 8 do São Paulo Expo, com mais de 70 marcas previstas. <b>O RevestFácil estreia aqui.</b></p></div>
+  </div>
+  <p class="src mt1 r" style="--d:3">Fontes: hausdecorshow.com.br · relatórios pós-show 2024 e 2025 · Book de Tendências 2026 (NürnbergMesse Brasil). As visitações de 2024 somam Haus Decor e Expo Revestir.</p>
+</section>
+
+<section class="slide" data-chap="A feira" data-title="Inspiração">
+  <div class="gal-wrap">
+    <div class="gal r" style="--d:1">
+      <figure class="photo g1" data-lb data-cap="Coral · Haus Decor Show 2026 · foto: NürnbergMesse Brasil"><img src="https://home.hausdecorshow.com.br/wp-content/uploads/2026/03/HausDecor-2026-08.webp" alt="Stand Coral na Haus Decor 2026" loading="lazy"><figcaption>Coral · 2026</figcaption></figure>
+      <figure class="photo" data-lb data-cap="Lukscolor · Haus Decor Show 2026 · foto: NürnbergMesse Brasil"><img src="https://home.hausdecorshow.com.br/wp-content/uploads/2026/03/HausDecor-2026-02.webp" alt="Stand Lukscolor na Haus Decor 2026" loading="lazy"><figcaption>Lukscolor · 2026</figcaption></figure>
+      <figure class="photo" data-lb data-cap="Portal do Pavilhão de Iluminação · Haus Decor Show 2026 · foto: NürnbergMesse Brasil"><img src="https://home.hausdecorshow.com.br/wp-content/uploads/2026/03/HausDecor-2026-46.webp" alt="Portal do Pavilhão de Iluminação 2026" loading="lazy"><figcaption>Pavilhão de Iluminação · 2026</figcaption></figure>
+      <figure class="photo" data-lb data-cap="Iquine · Haus Decor Show 2026 · foto: NürnbergMesse Brasil"><img src="https://home.hausdecorshow.com.br/wp-content/uploads/2026/03/HausDecor-2026-05.webp" alt="Stand Iquine na Haus Decor 2026" loading="lazy"><figcaption>Iquine · 2026</figcaption></figure>
+      <figure class="photo" data-lb data-cap="Setor de mobiliário · Haus Decor Show 2026 · foto: NürnbergMesse Brasil"><img src="https://home.hausdecorshow.com.br/wp-content/uploads/2026/03/HausDecor-2026-10.webp" alt="Setor de mobiliário na Haus Decor 2026" loading="lazy"><figcaption>Mobiliário · 2026</figcaption></figure>
+      <figure class="photo" data-lb data-cap="Iluminação · Haus Decor Show 2026 · foto: NürnbergMesse Brasil"><img src="https://home.hausdecorshow.com.br/wp-content/uploads/2026/03/HausDecor-2026-12.webp" alt="Stand de iluminação na Haus Decor 2026" loading="lazy"><figcaption>Iluminação · 2026</figcaption></figure>
+    </div>
+    <div class="gal-txt">
+      <p class="eyebrow r">A feira · o padrão estético</p>
+      <h2 class="h2 r mt1" style="--d:1">Os stands viraram arquitetura cenográfica.</h2>
+      <p class="r small mute mt1" style="--d:2">As marcas que mais chamam atenção na Haus Decor não montam loja, constroem ambientes. Usam curvas, materiais naturais, luz quente e uma narrativa própria.</p>
+      <p class="k r mt2" style="--d:3">Tendências do Book 2026</p>
+      <ul class="bul small mt1 r" style="--d:4">
+        <li><b>Azul Puro</b> é a Cor do Ano da Coral. O Cáqui Universal da Sherwin-Williams e os terrosos da Lukscolor trazem neutros quentes.</li>
+        <li><b>Madeira natural</b> e cerâmica autoral na iluminação.</li>
+        <li>Acolhimento, conexão com a natureza e <b>brasilidade</b>.</li>
+        <li>Texturas e materiais que transformam superfícies.</li>
       </ul>
+      <p class="why2 r" style="--d:5">Azul e madeira: a paleta do RevestFácil já fala a língua da feira.</p>
+    </div>
+  </div>
+  <p class="src r" style="--d:6">Fotos: Haus Decor Show 2026 / NürnbergMesse Brasil (galeria oficial). Tendências: Book de Tendências Haus Decor Show 2026, pp. 20–33.</p>
+</section>
+
+<section class="slide navy" data-chap="A feira" data-title="Público">
+  <p class="eyebrow r">A feira · quem visita</p>
+  <h2 class="h1 r mt1" style="--d:1">Ela especifica, <span class="w">ela decide</span>, ela aplica.</h2>
+  <div class="pub">
+    <div class="pub-big r" style="--d:2">
+      <div><b><span data-count="67">0</span>%</b><p>do público da Haus Decor 2025 é <b>feminino</b></p></div>
+      <div><b><span data-count="65">0</span>%</b><p>dos arquitetos e urbanistas registrados no Brasil são <b>mulheres</b> (64,55%, CAU/BR, 2022)</p></div>
+    </div>
+    <div class="pub-prof r" style="--d:3">
+      <p class="k">Perfil dos visitantes únicos · 2025</p>
+      <div class="bars">
+        <div style="--v:38"><span>Arquitetura e urbanismo</span><i></i><b>38%</b></div>
+        <div style="--v:17"><span>Revenda</span><i></i><b>17%</b></div>
+        <div style="--v:11"><span>Construtora</span><i></i><b>11%</b></div>
+        <div style="--v:11"><span>Representação comercial</span><i></i><b>11%</b></div>
+        <div style="--v:8"><span>Design de interiores</span><i></i><b>8%</b></div>
+        <div style="--v:15"><span>Outros</span><i></i><b>15%</b></div>
+      </div>
+    </div>
+    <div class="pub-seek r" style="--d:4">
+      <p class="k">O que elas buscam na feira</p>
+      <ul class="bul small">
+        <li><b>Tendências e lançamentos</b>, para especificar o ano inteiro.</li>
+        <li><b>Repertório e conteúdo:</b> talks, Book de Tendências, podcast.</li>
+        <li><b>Relacionamento</b> com marcas e com outras profissionais.</li>
+        <li><b>Experiências</b> que valham a foto e o compartilhamento. <i style="opacity:.7">(leitura 75LAB)</i></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bridge r" style="--d:5"><b>Por que isso importa:</b> a consumidora do RevestFácil, entre 25 e 45 anos e apaixonada por decoração, é a mesma mulher que circula pela feira, especifica para clientes e decide sobre a própria casa. O stand fala com ela como profissional e como dona da casa.</div>
+  <p class="src mt1 r" style="--d:6">Fontes: relatório pós-show Haus Decor 2025, pp. 5 e 7 (NürnbergMesse Brasil) · CAU/BR, Dia Nacional da Mulher Arquiteta e Urbanista (2022).</p>
+</section>
+
+<!-- ============ HISTÓRICO ============ -->
+<section class="slide" data-chap="Nossa história" data-title="2025 · A estreia">
+  <div class="ed">
+    <figure class="photo contain r" style="--d:1;background:#fff" data-lb data-cap="Haus Decor 2025 · stand Alltak Decor, conceito Harmonize | Revela"><img src="assets/img/edicoes/2025-stand.jpg" alt="Render do stand Alltak Decor na Haus Decor 2025"><figcaption>Haus Decor 2025 · Harmonize | Revela</figcaption></figure>
+    <div class="txt">
+      <p class="eyebrow r">Nossa história com a Alltak · 2025</p>
+      <div class="bigstat r" style="--d:1"><b>15</b><span>dias<br>do desafio à execução</span></div>
+      <h2 class="h2 r mt1" style="--d:2">A estreia foi uma entrega recorde.</h2>
+      <p class="r small mute mt1" style="--d:3">Foi a primeira participação da Alltak na Haus Decor: uma ilha de 84 m², com quatro ambientes e aplicação ao vivo. Criação e produção couberam em 15 dias, com mais de 19 pessoas e 5 dias de montagem.</p>
       <div class="learn r" style="--d:4">
         <p class="eyebrow">O que aprendemos</p>
-        <p class="small">A marca se fez ver, mas o conceito ficou pouco evidente para o público de decoração. Faltou estoque, e o corredor lateral foi pouco aproveitado.</p>
+        <ul class="bul small">
+          <li>A marca se fez ver, mas o conceito ficou pouco evidente para o público de decoração.</li>
+          <li>Faltou estoque, e o corredor lateral foi pouco aproveitado.</li>
+          <li>O DNA "Wrapping for ALL" (moto, guitarras, preto) falava mais de Alltak do que de casa.</li>
+        </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 04 · 2026 -->
-<section class="slide paper" data-chap="Alltak na Haus Decor" data-title="2026 · Casa em Movimento">
+<section class="slide paper" data-chap="Nossa história" data-title="2026 · Problemas resolvidos">
   <div class="ed">
-    <div class="pics two r" style="--d:1">
-      <figure class="photo" data-lb data-cap="Haus Decor 2026 · Loja Perfeita, com a primeira aparição de RevestFácil"><img src="assets/img/edicoes/2026-loja.jpg" alt="Loja Perfeita no stand Alltak 2026 com comunicação RevestFácil"><figcaption>Loja Perfeita</figcaption></figure>
-      <div class="pics" style="grid-template-rows:1fr 1fr">
-        <figure class="photo" data-lb data-cap="Haus Decor 2026 · testeira Alltak Decor"><img src="assets/img/edicoes/2026-fachada.jpg" alt="Testeira Alltak Decor 2026"></figure>
+    <div class="pics r" style="--d:1;grid-template-rows:1.5fr 1fr">
+      <figure class="photo contain" style="background:#fff" data-lb data-cap="Haus Decor 2026 · vista frontal do stand Alltak Decor, conceito Casa em Movimento"><img src="assets/img/edicoes/2026-stand.jpg" alt="Render do stand Alltak Decor na Haus Decor 2026"><figcaption>Haus Decor 2026 · Casa em Movimento</figcaption></figure>
+      <div class="pics c2">
+        <figure class="photo" data-lb data-cap="Haus Decor 2026 · Loja Perfeita, com a primeira aparição de RevestFácil"><img src="assets/img/edicoes/2026-loja.jpg" alt="Loja Perfeita 2026"></figure>
         <figure class="photo" data-lb data-cap="Haus Decor 2026 · display com amostras manuseáveis"><img src="assets/img/edicoes/2026-amostras.jpg" alt="Display de amostras 2026"></figure>
       </div>
     </div>
     <div class="txt">
-      <p><span class="year r"><small>Edições anteriores · a virada para decoração</small>2026</span></p>
-      <h2 class="h2 r mt2" style="--d:1">Casa em Movimento</h2>
-      <p class="mute r small mt1" style="--d:2">"Ambientes que mudam no ritmo da vida."</p>
-      <ul class="bul mt2 r" style="--d:3">
-        <li>Alltak Decor como marca-mãe, em bege e azul, com linguagem mais quente.</li>
-        <li>Cozinha com troca de padrões, a área mais procurada do stand.</li>
-        <li>Display com 52 combinações (eram 9 em 2025) e auditório modular para palestra.</li>
-        <li><b>Loja Perfeita</b>: a primeira aparição do <b>RevestFácil</b>, ainda em pré-lançamento.</li>
-      </ul>
-      <div class="learn r" style="--d:4">
-        <p class="eyebrow">O que aprendemos</p>
-        <p class="small">As amostras para pegar na mão fizeram o maior sucesso. A feira serviu de laboratório e termômetro do RevestFácil. As peças de PDV precisam ser simples e replicáveis.</p>
+      <p class="eyebrow r">Nossa história com a Alltak · 2026</p>
+      <h2 class="h2 r mt1" style="--d:1">Resolvemos o que aprendemos e aproximamos a marca do público.</h2>
+      <div class="fix r" style="--d:2">
+        <div><s>Estoque pequeno</s><b>Estoque triplicado</b></div>
+        <div><s>Corredor sem uso</s><b>Loja Perfeita, com PDV real</b></div>
+        <div><s>Display com 9 lâminas</s><b>52 combinações para manusear</b></div>
+        <div><s>Sala com TV pouco usada</s><b>Auditório modular para palestra</b></div>
+        <div><s>Conceito pouco evidente</s><b>Parede frontal dedicada ao conceito</b></div>
+      </div>
+      <p class="small r mt1" style="--d:3">A cozinha com troca de padrões foi a área mais procurada do stand. As amostras manuseáveis foram o maior sucesso, e o RevestFácil teve ali sua primeira prova de mercado.</p>
+      <div class="alert r" style="--d:4">
+        <p class="eyebrow">Ponto de atenção · Relações Públicas Alltak</p>
+        <p>A operação evoluiu, mas o stand ainda <b>não entregou a inspiração e o conceito</b> que se espera de uma Haus Decor. Ele funcionou como loja, não como referência de design.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 05 · 2027 O SALTO -->
-<section class="slide" data-chap="Alltak na Haus Decor" data-title="2027 · O salto">
+<section class="slide" data-chap="Nossa história" data-title="O que levamos para 2027">
   <p class="eyebrow r">2025 → 2026 → 2027</p>
-  <h2 class="h1 r mt1" style="--d:1;max-width:26ch">Em 2027, o produto deixa de ser vitrine e vira <span class="w">experiência</span>.</h2>
+  <h2 class="h1 r mt1" style="--d:1;max-width:28ch">Cada edição resolveu um problema. Agora o desafio é <span class="w">inspirar</span>.</h2>
   <div class="evo r" style="--d:2">
     <div class="rh"></div><div class="ch">2025</div><div class="ch">2026</div><div class="ch c27 first">2027</div>
-    <div class="rh">Protagonista</div><div data-y="2025">Alltak Decor, uma linha dentro da marca</div><div data-y="2026">Alltak Decor e RevestFácil em pré-lançamento</div><div class="c27" data-y="2027">RevestFácil protagonista, com a Alltak assinando (80/20)</div>
+    <div class="rh">Foco</div><div data-y="2025">Estar presente: estreia em 15 dias</div><div data-y="2026">Operar bem: estoque, loja e display</div><div class="c27" data-y="2027">Inspirar: conceito e design como protagonistas</div>
+    <div class="rh">Protagonista</div><div data-y="2025">Alltak Decor</div><div data-y="2026">Alltak Decor e RevestFácil em pré-lançamento</div><div class="c27" data-y="2027">RevestFácil, com a Alltak assinando (80/20)</div>
     <div class="rh">Linguagem</div><div data-y="2025">Reta, preta, azul, "show"</div><div data-y="2026">Bege, ripado, loja</div><div class="c27" data-y="2027">Curva, madeira, luz e natureza</div>
     <div class="rh">Experiência</div><div data-y="2025">Ver a aplicação</div><div data-y="2026">Testar e comprar</div><div class="c27" data-y="2027">Fazer com as próprias mãos</div>
-    <div class="rh">Formato</div><div data-y="2025">Ilha de 84 m²</div><div data-y="2026">Mesma base, reorganizada</div><div class="c27" data-y="2027">Esquina compacta, em área de alto fluxo</div>
-    <div class="rh">Público-chave</div><div data-y="2025">Mercado em geral</div><div data-y="2026">Arquitetos e lojistas</div><div class="c27 last" data-y="2027">Arquitetos e lojistas, de olho no consumidor que faz ele mesmo</div>
+    <div class="rh">Relação 75LAB</div><div data-y="2025">Entrega emergencial</div><div data-y="2026">Projeto planejado e corrigido</div><div class="c27 last" data-y="2027">Parceria de conceito, do briefing à feira</div>
   </div>
 </section>
 
-<!-- 06 · CONCEITO -->
-<section class="slide paper" data-chap="Conceito" data-title="Nova Camada">
-  <svg class="ribbon" viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">
-    <path d="M-60 840 C 300 760, 560 900, 900 800 S 1320 700, 1700 760" stroke="url(#gw)" stroke-width="34" pathLength="1"/>
-  </svg>
-  <div class="split w46" style="position:relative;z-index:2">
-    <div class="stack">
-      <p class="eyebrow r">Conceito criativo</p>
-      <h2 class="h-xl r" style="--d:1;color:var(--navy);font-size:calc(var(--u)*8.6)">Nova<br>Camada<span class="w">.</span></h2>
-      <p class="lead r" style="--d:2">Toda superfície merece uma nova camada.</p>
-      <div class="dict r mt2" style="--d:3">
-        <p class="ph" style="margin-top:0">ca·ma·da · substantivo feminino</p>
-        <ol>
-          <li><b>1.</b><span>Porção de material que se estende sobre uma superfície e a recobre.</span></li>
-          <li><b>2.</b><span><i>fig.</i> Um novo nível de leitura, de sentido, de história.</span></li>
-        </ol>
-      </div>
-    </div>
-    <div class="stack">
-      <h2 class="h2 r" style="--d:2">RevestFácil trabalha nas duas camadas.</h2>
-      <p class="lead r" style="--d:3">É a <b>camada de material</b> que se aplica sobre qualquer superfície, e a <b>camada de expressão</b> que cada pessoa acrescenta ao próprio espaço.</p>
-      <p class="r mute" style="--d:4">A ideia parte da própria arquitetura: a testeira são camadas de madeira e azul que se soltam do alto, como um revestimento se abrindo sobre o stand. E ela já estava na marca, porque o "Á" de FÁCIL descola uma camada, como quem começa a aplicar. Nada é demolido, tudo ganha uma nova leitura.</p>
-      <p class="r" style="--d:5"><span class="tag solid">Assinatura · Uma nova camada para cada ideia.</span></p>
-    </div>
+<!-- ============ DESAFIO ============ -->
+<section class="slide navy" data-chap="O desafio" data-title="O desafio">
+  <p class="eyebrow r">O desafio proposto</p>
+  <h2 class="h1 r mt1" style="--d:1;max-width:24ch">Lançar o RevestFácil numa feira de <span class="w">design</span>.</h2>
+  <div class="chal">
+    <div class="ccard r" style="--d:2"><p class="k">O produto</p><h4>Revestimento vinílico adesivo para fazer você mesmo</h4><p>Rolos em caixa, prontos para o autosserviço, para móveis, paredes, vidros e eletrodomésticos. É uma nova unidade de negócio da Alltak, com marca e comunicação próprias.</p></div>
+    <div class="ccard r" style="--d:3"><p class="k">Para quem</p><h4>Ela decide, o lojista vende, o arquiteto referenda</h4><p>A consumidora final, de 25 a 45 anos e apaixonada por decoração, chega até o produto pelos home centers e lojas de tinta e decoração. Arquitetos e designers são a referência que dá credibilidade.</p></div>
+    <div class="ccard r" style="--d:4"><p class="k">O objetivo na feira</p><h4>Ser lembrado como design acessível, e não como "adesivo"</h4><p>A meta é provar a facilidade na prática, abrir conversa com lojistas e revendas, gerar conteúdo e desejo, e lançar a marca com a chancela Alltak.</p></div>
+  </div>
+  <div class="tension r" style="--d:5">
+    <p class="k">A tensão que o stand precisa resolver</p>
+    <div><b>Varejo e DIY</b><span>num ambiente de curadoria e design</span></div>
+    <div><b>Mostrar o fazer</b><span>sem virar sala de aula</span></div>
+    <div><b>Stand compacto</b><span>na entrada, com impacto imediato</span></div>
+    <div><b>Marca nova</b><span>sem perder a força da Alltak</span></div>
   </div>
 </section>
 
-<!-- 07 · MANIFESTO -->
-<section class="slide navy" data-chap="Conceito" data-title="Manifesto">
+<!-- ============ MANIFESTO ============ -->
+<section class="slide ink manif" data-chap="Manifesto" data-title="Manifesto">
   <p class="eyebrow r">Manifesto</p>
-  <div class="split w64 mt2" style="align-items:center">
-    <div class="manifesto">
-      <p class="r" style="--d:1">Uma parede não é ponto final. Um armário não é para sempre. <span class="w">Toda superfície é um ponto de partida.</span></p>
-      <p class="r soft" style="--d:2">Durante muito tempo, renovar significou obra, pó, espera e medo de errar. RevestFácil muda isso: sem quebrar nada, só uma nova camada.</p>
-      <p class="r soft" style="--d:3">Na Haus Decor, a gente não vai só dizer que é fácil. Vai entregar o rolo, a espátula e o desafio.</p>
-      <p class="r" style="--d:4">Fazer você mesmo não é fazer de qualquer jeito. <span class="hl">É criar do seu jeito.</span></p>
-    </div>
-    <div class="r" style="--d:5;text-align:center">
-      <img src="assets/img/brand/rf-v-dark.png" alt="Alltak RevestFácil" style="width:78%;margin:0 auto">
-      <p style="font:800 calc(var(--u)*2.6)/1 var(--f-d);letter-spacing:-.02em;margin-top:calc(var(--u)*2)">Nova Camada.<br><span class="w" style="font-size:.62em;white-space:nowrap">Toda superfície merece uma.</span></p>
-    </div>
+  <div class="mtext">
+    <p class="r" style="--d:1">Toda casa é feita de camadas.</p>
+    <p class="r soft" style="--d:2">A cor que alguém escolheu. O armário que veio com o apartamento. A parede que ninguém teve coragem de mudar.</p>
+    <p class="r soft" style="--d:3">Por muito tempo, renovar foi sinônimo de apagar: quebrar, demolir, começar do zero. Obra, pó, espera e medo de errar.</p>
+    <p class="r" style="--d:4">Mas uma superfície não é ponto final. <span class="w">É ponto de partida.</span></p>
+    <p class="r soft" style="--d:5">E se, em vez de apagar, a gente pudesse acrescentar? Sem quebrar nada. Com as próprias mãos. Do próprio jeito.</p>
+    <p class="r" style="--d:6">Transformar não é destruir. <span class="hl">É escrever por cima, com mais beleza.</span></p>
   </div>
 </section>
 
-<!-- 08 · PILARES -->
-<section class="slide" data-chap="Conceito" data-title="Pilares">
-  <p class="eyebrow r">Pilares do conceito</p>
-  <h2 class="h1 r mt1" style="--d:1">Nova linguagem, mesma origem.</h2>
-  <div class="pillars">
-    <article class="pillar r" style="--d:2">
-      <figure class="photo" data-lb data-cap="Testeira: faixas curvas em camadas sobre o stand"><img src="assets/img/stand/detalhes/d-testeira.jpg" alt="Testeira em faixas curvas de madeira e azul"></figure>
-      <div class="b"><span class="k">01</span><h4>A forma do gesto</h4><p class="small mute">As faixas suspensas são camadas que se soltam do alto, como um revestimento se abrindo sobre o stand. Curvas, madeira, verde e luz entram no lugar da linguagem reta, preta e de vitrine.</p></div>
-    </article>
-    <article class="pillar r" style="--d:3">
-      <figure class="photo mesa" data-lb data-cap="Mesa de ativação do Ateliê Nova Camada"><img src="assets/img/stand/mesa-ativacao.jpg" alt="Bancada trapezoidal do ateliê"></figure>
-      <div class="b"><span class="k">02</span><h4>Fazer para acreditar</h4><p class="small mute">O ateliê transforma a promessa em prova. O visitante aplica, sente o acabamento e leva o resultado para casa.</p></div>
-    </article>
-    <article class="pillar r" style="--d:4">
-      <figure class="photo" data-lb data-cap="Balcão RevestFácil: a marca protagonista na esquina"><img src="assets/img/stand/detalhes/d-balcao.jpg" alt="Balcão RevestFácil"></figure>
-      <div class="b"><span class="k">03</span><h4>Design ao alcance</h4><p class="small mute">O RevestFácil é o protagonista e a Alltak assina como garantia. O trapézio vira assinatura de bordas suaves, e o azul vira fio condutor.</p></div>
-    </article>
-  </div>
-</section>
-
-<!-- 09 · VISÃO GERAL E PLANTA -->
-<section class="slide paper" data-chap="O stand" data-title="Visão geral e planta">
-  <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:2em;flex-wrap:wrap">
-    <div><p class="eyebrow r">O stand · visão geral e planta</p><h2 class="h2 r mt1" style="--d:1">Uma esquina que se vê de longe e convida a entrar.</h2></div>
-    <p class="src r" style="--d:2">Clique em um número para ver o detalhe.</p>
-  </div>
-  <div class="ov r" style="--d:2">
-    <div class="hs-wrap">
-      <div class="hs" id="hsPersp">
-        <img src="assets/img/stand/perspectiva.webp" alt="Perspectiva geral do stand" data-lb data-cap="Perspectiva geral do stand Alltak RevestFácil · Haus Decor 2027">
-        <button class="pin" style="--x:48%;--y:27%" data-go="Testeira e balcão"><b>1</b><span>Testeira</span></button>
-        <button class="pin" style="--x:59%;--y:84%;--d:1" data-go="Testeira e balcão"><b>2</b><span>Balcão</span></button>
-        <button class="pin l" style="--x:85%;--y:64%;--d:2" data-go="Expositores e vitrine"><b>3</b><span>Expositores</span></button>
-        <button class="pin" style="--x:70%;--y:72%;--d:3" data-go="Ateliê Nova Camada"><b>4</b><span>Ateliê</span></button>
-        <button class="pin l" style="--x:56%;--y:62%;--d:4" data-go="Expositores e vitrine"><b>5</b><span>Vitrine</span></button>
-        <button class="pin l" style="--x:36%;--y:76%;--d:5" data-go="Lounge e operação"><b>6</b><span>Lounge</span></button>
-        <button class="pin l" style="--x:30%;--y:52%;--d:6" data-go="Lounge e operação"><b>7</b><span>Estoque e copa</span></button>
+<!-- ============ KV ============ -->
+<section class="slide paper" data-chap="Tema 2027" data-title="KV · opção A">
+  <div class="kvwrap">
+    <div class="kvbox r">
+      <div class="kv kva">
+        <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs>
+            <pattern id="woodA" patternUnits="userSpaceOnUse" width="1420" height="500"><image href="assets/img/kv/wood.jpg" width="1420" height="500" preserveAspectRatio="none"/></pattern>
+            <filter id="shA" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b1a3a" flood-opacity=".28"/></filter>
+          </defs>
+          <path d="M 560 1240 C 900 1060, 1160 900, 1440 840 S 1700 700, 1900 620" stroke="#8F96D8" stroke-width="120" fill="none" filter="url(#shA)"/>
+          <path d="M 470 1130 C 810 950, 1070 790, 1350 730 S 1610 590, 1810 510" stroke="#5276B9" stroke-width="110" fill="none" filter="url(#shA)"/>
+          <path d="M 380 1020 C 720 840, 980 680, 1260 620 S 1520 480, 1720 400" stroke="#00205C" stroke-width="120" fill="none" filter="url(#shA)"/>
+          <path d="M 290 900 C 630 720, 890 560, 1170 500 S 1430 360, 1630 280" stroke="url(#woodA)" stroke-width="150" fill="none" filter="url(#shA)"/>
+        </svg>
+        <div class="kv-t">
+          <h3>Nova<br>Camada<span>.</span></h3>
+          <p>Toda superfície merece uma nova camada.</p>
+        </div>
+        <img class="kv-logo" src="assets/img/brand/rf-h-light.png" alt="Alltak RevestFácil">
+        <p class="kv-ev">Haus Decor Show 2027 · 22–26 fev · São Paulo Expo</p>
       </div>
     </div>
-    <div class="hs-wrap">
-      <div class="hs" id="hsPlan">
-        <img src="assets/img/stand/planta.webp" alt="Planta humanizada do stand" data-lb data-cap="Planta humanizada · vista superior do stand">
-        <button class="pin" style="--x:10%;--y:16%" data-go="Testeira e balcão"><b>2</b><span>Balcão</span></button>
-        <button class="pin l" style="--x:89%;--y:9%;--d:1" data-go="Expositores e vitrine"><b>3</b><span>Expositor</span></button>
-        <button class="pin" style="--x:7%;--y:76%;--d:1" data-go="Expositores e vitrine"><b>3</b><span>Expositor</span></button>
-        <button class="pin" style="--x:22%;--y:72%;--d:2" data-go="Ateliê Nova Camada"><b>4</b><span>Ateliê</span></button>
-        <button class="pin" style="--x:50%;--y:74%;--d:3" data-go="Expositores e vitrine"><b>5</b><span>Vitrine</span></button>
-        <button class="pin" style="--x:40%;--y:19%;--d:4" data-go="Lounge e operação"><b>6</b><span>Lounge</span></button>
-        <button class="pin l" style="--x:80%;--y:74%;--d:6" data-go="Lounge e operação"><b>7</b><span>Estoque e copa</span></button>
-      </div>
+    <div class="kvtxt">
+      <p class="eyebrow r">Tema 2027 · KV opção A</p>
+      <h2 class="h2 r mt1" style="--d:1">Camadas em movimento</h2>
+      <p class="r mute mt1" style="--d:2">Faixas de madeira, azul e lilás se sobrepõem como camadas de revestimento aplicadas uma sobre a outra. É a mesma linguagem da testeira e da arquitetura do stand: o KV antecipa o espaço.</p>
+      <ul class="bul small mt2 r" style="--d:3">
+        <li>As cores são as do stand: madeira, azul RevestFácil, azul Fácil e lilás.</li>
+        <li>Desdobra bem em testeira, convite, redes e uniforme.</li>
+        <li>Mais institucional e arquitetônico.</li>
+      </ul>
     </div>
-  </div>
-  <div class="chips r" style="--d:3">
-    <button data-go="Testeira e balcão"><b>1</b>Testeira "rolo"</button>
-    <button data-go="Testeira e balcão"><b>2</b>Balcão na esquina</button>
-    <button data-go="Expositores e vitrine"><b>3</b>Expositores giratórios</button>
-    <button data-go="Ateliê Nova Camada"><b>4</b>Ateliê Nova Camada</button>
-    <button data-go="Expositores e vitrine"><b>5</b>Vitrine curva</button>
-    <button data-go="Lounge e operação"><b>6</b>Lounge e bistrô</button>
-    <button data-go="Lounge e operação"><b>7</b>Estoque e copa</button>
   </div>
 </section>
 
-<!-- 10 · TESTEIRA E BALCÃO -->
-<section class="slide" data-chap="O stand" data-title="Testeira e balcão">
-  <p class="eyebrow r">O stand · primeiro impacto</p>
-  <h2 class="h2 r mt1" style="--d:1">Vista de longe, ela chama. De perto, recebe.</h2>
-  <div class="duo">
+<section class="slide paper" data-chap="Tema 2027" data-title="KV · opção B">
+  <div class="kvwrap">
+    <div class="kvbox r">
+      <div class="kv kvb">
+        <svg viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">
+          <defs>
+            <pattern id="woodB" patternUnits="userSpaceOnUse" width="1100" height="388"><image href="assets/img/kv/wood.jpg" width="1100" height="388" preserveAspectRatio="none"/></pattern>
+            <linearGradient id="flap" x1="1373" y1="606" x2="1147" y2="312" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#C9D3EC"/><stop offset=".45" stop-color="#F4F6FB"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient>
+            <filter id="shB" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="-10" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".35"/></filter>
+          </defs>
+          <rect width="1600" height="900" fill="url(#woodB)"/>
+          <polygon points="0,0 1600,0 1600,432 992,900 0,900" fill="#00205C"/>
+          <polygon points="1600,432 992,900 1147.6,312.3" fill="url(#flap)" filter="url(#shB)"/>
+        </svg>
+        <div class="kv-t">
+          <h3>Nova<br>Camada<span>.</span></h3>
+          <p>Toda superfície merece uma nova camada.</p>
+        </div>
+        <img class="kv-logo" src="assets/img/brand/rf-h-dark.png" alt="Alltak RevestFácil">
+        <p class="kv-ev">Haus Decor Show 2027 · 22–26 fev · São Paulo Expo</p>
+      </div>
+    </div>
+    <div class="kvtxt">
+      <p class="eyebrow r">Tema 2027 · KV opção B</p>
+      <h2 class="h2 r mt1" style="--d:1">O canto que descola</h2>
+      <p class="r mute mt1" style="--d:2">Uma superfície azul descola o canto e revela a madeira por baixo. É o gesto do "Á" de FÁCIL ampliado: a nova camada acontece diante dos olhos.</p>
+      <ul class="bul small mt2 r" style="--d:3">
+        <li>O próprio logo é o ponto de partida, então o KV nasce da marca.</li>
+        <li>O antes e depois aparece num gesto só, simples de entender de longe.</li>
+        <li>Mais emocional e próximo do consumidor do faça você mesmo.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STAND · VISTAS ============ -->
+<section class="slide white view" data-chap="O stand" data-title="Vista em perspectiva">
+  <div class="vhead"><p class="eyebrow r">O stand · vista em perspectiva</p><h2 class="h2 r mt1" style="--d:1">Uma esquina que se vê de longe e convida a entrar.</h2></div>
+  <figure class="vimg rz" style="--d:1" data-lb data-cap="Vista em perspectiva do stand Alltak RevestFácil · Haus Decor 2027"><img src="assets/img/stand/perspectiva.webp" alt="Vista em perspectiva do stand"></figure>
+</section>
+
+<section class="slide white view" data-chap="O stand" data-title="Vista frontal">
+  <div class="vhead"><p class="eyebrow r">O stand · vista frontal</p><h2 class="h2 r mt1" style="--d:1">Camadas de madeira e azul que se soltam do alto.</h2></div>
+  <figure class="vimg rz" style="--d:1" data-lb data-cap="Vista frontal do stand"><img src="assets/img/stand/frontal.webp" alt="Vista frontal do stand"></figure>
+</section>
+
+<section class="slide white view" data-chap="O stand" data-title="Vista lateral">
+  <div class="vhead"><p class="eyebrow r">O stand · vista lateral</p><h2 class="h2 r mt1" style="--d:1">Curvas que organizam o fluxo e escondem a operação.</h2></div>
+  <figure class="vimg rz" style="--d:1" data-lb data-cap="Vista lateral do stand"><img src="assets/img/stand/lateral.webp" alt="Vista lateral do stand"></figure>
+</section>
+
+<section class="slide paper" data-chap="O stand" data-title="Planta">
+  <div class="split w-plan">
+    <div style="display:flex;flex-direction:column;min-height:0">
+      <p class="eyebrow r">O stand · planta e setorização</p>
+      <div class="hs-wrap r" style="--d:1">
+        <div class="hs" id="hsPlan">
+          <img src="assets/img/stand/planta.webp" alt="Planta humanizada do stand" data-lb data-cap="Planta humanizada · vista superior do stand" style="background:#fff">
+          <button class="pin" style="--x:10%;--y:16%" data-go="Diferenciais · chegada"><b>1</b><span>Balcão</span></button>
+          <button class="pin l" style="--x:89%;--y:9%;--d:1" data-go="Diferenciais · chegada"><b>2</b><span>Expositor</span></button>
+          <button class="pin" style="--x:7%;--y:76%;--d:1" data-go="Diferenciais · chegada"><b>2</b><span>Expositor</span></button>
+          <button class="pin" style="--x:22%;--y:72%;--d:2" data-go="Diferenciais · experiência"><b>3</b><span>Ateliê</span></button>
+          <button class="pin" style="--x:50%;--y:74%;--d:3" data-go="Diferenciais · experiência"><b>4</b><span>Vitrine</span></button>
+          <button class="pin" style="--x:40%;--y:19%;--d:4" data-go="Diferenciais · experiência"><b>5</b><span>Lounge</span></button>
+          <button class="pin l" style="--x:80%;--y:33%;--d:5" data-go="Diferenciais · experiência"><b>6</b><span>Jardineira</span></button>
+          <button class="pin l" style="--x:80%;--y:74%;--d:6" data-go="Diferenciais · experiência"><b>7</b><span>Estoque e copa</span></button>
+        </div>
+      </div>
+    </div>
+    <div class="legend r" style="--d:2">
+      <button data-go="Diferenciais · chegada"><b>1</b><span><strong>Recepção · balcão</strong><small>Na esquina de maior fluxo: recebe, agenda o ateliê e entrega kits.</small></span></button>
+      <button data-go="Diferenciais · chegada"><b>2</b><span><strong>Expositores giratórios</strong><small>Nas pontas: catálogo físico, tátil e interativo.</small></span></button>
+      <button data-go="Diferenciais · experiência"><b>3</b><span><strong>Ateliê Nova Camada</strong><small>Bancadas trapezoidais modulares, para turmas pequenas.</small></span></button>
+      <button data-go="Diferenciais · experiência"><b>4</b><span><strong>Vitrine curva</strong><small>Rolos e caixas à vista, organizados por uso.</small></span></button>
+      <button data-go="Diferenciais · experiência"><b>5</b><span><strong>Lounge e bistrô</strong><small>Relacionamento, negócios e talks.</small></span></button>
+      <button data-go="Diferenciais · experiência"><b>6</b><span><strong>Banco-jardineira</strong><small>Respiro verde no lado de menor fluxo.</small></span></button>
+      <button data-go="Diferenciais · experiência"><b>7</b><span><strong>Estoque e copa</strong><small>No canto menos movimentado, do piso ao teto.</small></span></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AR ============ -->
+<section class="slide ink ar" data-chap="O stand" data-title="Experiência em AR">
+  <p class="eyebrow r">O stand · experiência em realidade aumentada</p>
+  <div class="ar-slot r" style="--d:1">
+    <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="18" y="6" width="28" height="52" rx="5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M27 12h10" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M24 28l8-5 8 5v9l-8 5-8-5z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M24 28l8 5 8-5M32 33v9" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    <h3>Espaço reservado para a experiência em AR</h3>
+    <p>Aqui entra o passeio pelo stand em realidade aumentada: QR code, vídeo ou link para a visualização 3D.</p>
+    <span class="tag">Conteúdo a inserir</span>
+  </div>
+</section>
+
+<!-- ============ DIFERENCIAIS ============ -->
+<section class="slide" data-chap="Diferenciais" data-title="Diferenciais · chegada">
+  <p class="eyebrow r">Diferenciais do stand · chegar e tocar</p>
+  <h2 class="h2 r mt1" style="--d:1">Vista de longe, ela chama. De perto, recebe e deixa tocar.</h2>
+  <div class="duo trio">
     <article class="r" style="--d:2">
-      <figure class="photo" data-lb data-cap="Testeira em faixas curvas, com marca Alltak RevestFácil"><img src="assets/img/stand/detalhes/d-testeira.jpg" alt="Testeira em faixas curvas suspensas"></figure>
+      <figure class="photo" data-lb data-cap="Testeira em camadas de madeira e azul"><img src="assets/img/stand/detalhes/d-testeira.jpg" alt="Testeira"></figure>
       <div>
-        <div class="idx"><b>1</b><h3>Testeira: camadas que se abrem no ar</h3></div>
+        <div class="idx"><b>1</b><h3>Testeira em camadas</h3></div>
         <ul class="bul small">
-          <li>Faixas curvas em <b>madeira natural</b> e <b>azul RevestFácil</b>, sobrepostas como camadas de revestimento.</li>
-          <li>Perfil de <b>LED</b> nas bordas, que desenha a silhueta mesmo de longe, no corredor.</li>
-          <li>Marca <b>Alltak RevestFácil</b> em várias faces, com anéis de luz suspensos que iluminam as áreas de uso.</li>
+          <li>Faixas curvas de <b>madeira natural</b> e <b>azul RevestFácil</b>, sobrepostas como camadas de revestimento.</li>
+          <li>Perfil de <b>LED</b> nas bordas, que desenha a silhueta de longe.</li>
+          <li>Marca visível de todos os acessos.</li>
         </ul>
       </div>
     </article>
     <article class="r" style="--d:3">
-      <figure class="photo" data-lb data-cap="Balcão de recepção RevestFácil"><img src="assets/img/stand/detalhes/d-balcao.jpg" alt="Balcão RevestFácil retroiluminado"></figure>
+      <figure class="photo" data-lb data-cap="Balcão de recepção RevestFácil"><img src="assets/img/stand/detalhes/d-balcao.jpg" alt="Balcão"></figure>
       <div>
-        <div class="idx"><b>2</b><h3>Balcão na esquina de maior fluxo</h3></div>
+        <div class="idx"><b>2</b><h3>Balcão na esquina</h3></div>
         <ul class="bul small">
-          <li>Balcão curvo com a marca <b>RevestFácil retroiluminada</b> e base no azul da marca.</li>
-          <li>Ponto de cadastro, agenda do ateliê e entrega de kits de amostras.</li>
-          <li>Fica na área de maior visibilidade, que o projeto escolheu como coração do stand.</li>
+          <li>Marca <b>RevestFácil retroiluminada</b> na esquina de maior fluxo.</li>
+          <li>Cadastro, agenda do ateliê e entrega de kits de amostras.</li>
+          <li>Volume revestido com o próprio produto.</li>
         </ul>
       </div>
     </article>
-  </div>
-</section>
-
-<!-- 11 · EXPOSITORES E VITRINE -->
-<section class="slide paper" data-chap="O stand" data-title="Expositores e vitrine">
-  <p class="eyebrow r">O stand · produto na mão</p>
-  <h2 class="h2 r mt1" style="--d:1">Tocar, comparar e enxergar o produto como vai estar na loja.</h2>
-  <div class="duo">
-    <article class="r" style="--d:2">
-      <figure class="photo contain" style="background:#fff" data-lb data-cap="Expositor com amostras giratórias, monitor e jardineira"><img src="assets/img/stand/detalhes/d-expositor.jpg" alt="Expositor com amostras em trapézio"></figure>
+    <article class="r" style="--d:4">
+      <figure class="photo contain" style="background:#fff" data-lb data-cap="Expositor giratório com amostras, monitor e jardineira"><img src="assets/img/stand/detalhes/d-expositor.jpg" alt="Expositor giratório"></figure>
       <div>
         <div class="idx"><b>3</b><h3>Expositores giratórios</h3></div>
         <ul class="bul small">
-          <li>Placas em <b>trapézio</b> presas em <b>eixo giratório</b>: de um lado o revestimento, do outro a aplicação em um ambiente.</li>
-          <li>Monitor com benefícios, antes e depois e QR code para o catálogo digital. Um expositor em cada ponta do stand.</li>
-          <li>Em ajuste: entram <b>rolos reais e caixinhas</b> no lugar das prateleiras, e o trapézio ganha bordas arredondadas.</li>
+          <li>Placas em <b>trapézio</b>, em eixo giratório: de um lado o revestimento, do outro a aplicação em um ambiente.</li>
+          <li>Monitor com QR code para o catálogo digital.</li>
+          <li>Rolos reais e caixinhas, como no ponto de venda.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="slide paper" data-chap="Diferenciais" data-title="Diferenciais · experiência">
+  <p class="eyebrow r">Diferenciais do stand · fazer, escolher e conversar</p>
+  <h2 class="h2 r mt1" style="--d:1">Em vez de ouvir que é fácil, a visitante descobre que é capaz.</h2>
+  <div class="duo trio">
+    <article class="r" style="--d:2">
+      <figure class="photo mesa" data-lb data-cap="Mesa de ativação do Ateliê Nova Camada"><img src="assets/img/stand/mesa-ativacao.jpg" alt="Mesa do ateliê"></figure>
+      <div>
+        <div class="idx"><b>4</b><h3>Ateliê Nova Camada</h3></div>
+        <ul class="bul small">
+          <li><b>Bancadas trapezoidais modulares</b>, com rodízios, que escondem ferramentas e retalhos.</li>
+          <li>Turmas de 4 a 5 pessoas, com desafios em níveis: superfície plana, cantos e curvas, eletrodoméstico.</li>
+          <li>Quem participa leva a peça aplicada para casa.</li>
         </ul>
       </div>
     </article>
     <article class="r" style="--d:3">
-      <figure class="photo" data-lb data-cap="Vitrine curva em níveis"><img src="assets/img/stand/detalhes/d-vitrine.jpg" alt="Vitrine curva em níveis"></figure>
+      <figure class="photo" data-lb data-cap="Vitrine curva em níveis"><img src="assets/img/stand/detalhes/d-vitrine.jpg" alt="Vitrine curva"></figure>
       <div>
         <div class="idx"><b>5</b><h3>Vitrine curva</h3></div>
         <ul class="bul small">
-          <li>Estante orgânica em níveis, com <b>rolos empilhados e caixinhas</b> à mostra.</li>
-          <li>Organizada pelos <b>quatro grupos de uso</b>: móveis e bancadas, paredes e painéis, vidros e espelhos, eletrodomésticos.</li>
-          <li>Famílias Woods, Kroma e Cristais lado a lado, numa lógica que dá para replicar no ponto de venda.</li>
+          <li>Rolos empilhados e caixinhas à mostra.</li>
+          <li>Organizada pelos <b>quatro grupos de uso</b>: móveis, paredes, vidros e eletrodomésticos.</li>
+          <li>Mostra uma lógica que o lojista pode replicar na loja dele.</li>
         </ul>
       </div>
     </article>
-  </div>
-</section>
-
-<!-- 12 · ATELIÊ -->
-<section class="slide navy" data-chap="O stand" data-title="Ateliê Nova Camada">
-  <div class="attr rev">
-    <div class="txt">
-      <div class="idx r"><b>4</b><span class="eyebrow">Ateliê Nova Camada · faça você mesmo</span></div>
-      <h2 class="h1 r" style="--d:1">Em vez de ouvir que é fácil, o visitante descobre que é capaz.</h2>
-      <ul class="bul r" style="--d:2">
-        <li><b>Bancadas trapezoidais modulares</b> que se combinam em ilha ou em V, com tampo azul e corpo em madeira clara.</li>
-        <li>Nichos, gavetas e lixeiras embutidas escondem ferramentas, sopradores e retalhos. A bancada fica limpa, sem cara de sala de aula.</li>
-        <li>Rodízios e energia pelo piso elevado: o ateliê muda de lugar sem obra.</li>
-        <li>Turmas de 4 a 5 pessoas, com instrutor Alltak. Os desafios sobem de nível: superfície plana, depois cantos e curvas, depois eletrodoméstico.</li>
-        <li>Cada participante leva para casa a peça que aplicou e um kit de amostras.</li>
-      </ul>
-    </div>
-    <div class="pics r2 r" style="--d:1">
-      <figure class="photo mesa" data-lb data-cap="Mesa de ativação: bancada trapezoidal com ferramentas e rolos"><img src="assets/img/stand/mesa-ativacao.jpg" alt="Mesa de ativação"></figure>
-      <figure class="photo" data-lb data-cap="Planta · bancadas do ateliê combinadas em V"><img src="assets/img/stand/detalhes/d-plan-oficina.jpg" alt="Bancadas do ateliê na planta"></figure>
-    </div>
-  </div>
-</section>
-
-<!-- 13 · LOUNGE E OPERAÇÃO -->
-<section class="slide" data-chap="O stand" data-title="Lounge e operação">
-  <p class="eyebrow r">O stand · relacionamento e bastidor</p>
-  <h2 class="h2 r mt1" style="--d:1">Onde a conversa vira negócio, e a operação não aparece.</h2>
-  <div class="duo">
-    <article class="r" style="--d:2">
-      <figure class="photo" data-lb data-cap="Lounge com mesas altas e ripado"><img src="assets/img/stand/detalhes/d-lounge.jpg" alt="Lounge com mesas bistrô"></figure>
+    <article class="r" style="--d:4">
+      <figure class="photo" data-lb data-cap="Lounge com mesas altas, ripado e jardineiras"><img src="assets/img/stand/detalhes/d-lounge.jpg" alt="Lounge"></figure>
       <div>
-        <div class="idx"><b>6</b><h3>Lounge e bistrô</h3></div>
+        <div class="idx"><b>6</b><h3>Lounge e bastidor</h3></div>
         <ul class="bul small">
-          <li>Mesas altas para atender arquitetos e lojistas, cercadas de <b>ripado de madeira</b> e jardineiras.</li>
-          <li><b>Modular:</b> o mobiliário tem rodízios, então a área vira plateia para talks e depois volta a ser convivência.</li>
-          <li>No lado de menor fluxo, um banco-jardineira serve de respiro e ponto de descanso.</li>
-        </ul>
-      </div>
-    </article>
-    <article class="r" style="--d:3">
-      <figure class="photo" data-lb data-cap="Volume orgânico que abriga estoque e copa, com a parede Alltak"><img src="assets/img/stand/detalhes/d-volume.jpg" alt="Volume orgânico do stand"></figure>
-      <div>
-        <div class="idx"><b>7</b><h3>Volume orgânico: estoque, copa e parede Alltak</h3></div>
-        <ul class="bul small">
-          <li>O volume curvo em tom areia guarda o <b>estoque do piso ao teto</b> e a copa, no canto menos movimentado.</li>
-          <li>A entrada é uma abertura orgânica, sem porta aparente.</li>
-          <li>Na parede com ripado fica o logotipo <b>ALLTAK</b>, a assinatura institucional da marca-mãe.</li>
+          <li>Mesas altas, ripado e verde: um lugar para negócio e para talks, com mobiliário modular.</li>
+          <li>Um volume curvo guarda o <b>estoque do piso ao teto</b> e a copa, sem porta aparente.</li>
+          <li>A parede com ripado leva a assinatura ALLTAK.</li>
         </ul>
       </div>
     </article>
   </div>
+  <p class="note r" style="--d:5"><span><b>Proposta 75LAB:</b> o stand como mostruário. As superfícies são revestidas com RevestFácil e identificadas por QR code, por exemplo: "Este balcão é Wood Freijó".</span></p>
 </section>
 
-<!-- 14 · PRÓXIMOS PASSOS -->
-<section class="slide paper" data-chap="Próximos passos" data-title="Próximos passos">
-  <p class="eyebrow r">Próximos passos</p>
-  <h2 class="h1 r mt1" style="--d:1">Do conceito à montagem.</h2>
-  <div class="steps">
-    <div class="card r" style="--d:2">
-      <span class="tag wd">Em ajuste</span>
-      <h4>Refinamentos em curso com a 3DBG</h4>
-      <ul class="bul small">
-        <li>Bordas arredondadas no trapézio da comunicação visual.</li>
-        <li>Rolos reais e caixinhas nos expositores laterais.</li>
-        <li>Painel artístico na parede cega dos fundos, feito com os próprios padrões RevestFácil.</li>
-        <li><b>Proposta 75LAB:</b> o stand como mostruário. As superfícies são revestidas com RevestFácil e identificadas por QR code.</li>
-      </ul>
-    </div>
-    <div class="card r" style="--d:3">
-      <span class="tag solid">A validar juntos</span>
-      <h4>Decisões para fechar o projeto</h4>
-      <ul class="bul small">
-        <li>Área e posição finais na planta da feira.</li>
-        <li>Sustentação dos elementos suspensos, conforme o regulamento do pavilhão.</li>
-        <li>Grade do ateliê: turmas, horários e desafios.</li>
-        <li>Mix de padrões e grupos de uso que vão para a exposição.</li>
-      </ul>
-    </div>
-    <div class="card r" style="--d:4">
-      <span class="tag">Cronograma</span>
-      <h4>Marcos</h4>
-      <ul class="tl">
-        <li><b>Out 2026</b><span>Aprovação do conceito e contratação da montadora</span></li>
-        <li><b>Nov–Dez</b><span>Projeto executivo, comunicação e brindes</span></li>
-        <li><b>Jan 2027</b><span>Produção, conteúdo e pré-divulgação do ateliê</span></li>
-        <li><b>Fev 2027</b><span>Montagem e treinamento da equipe</span></li>
-        <li class="hi"><b>22–26 fev</b><span>Haus Decor Show 2027</span></li>
-      </ul>
-    </div>
+<!-- ============ CRONOGRAMA ============ -->
+<section class="slide" data-chap="Cronograma" data-title="Cronograma de execução">
+  <p class="eyebrow r">Cronograma de execução</p>
+  <h2 class="h2 r mt1" style="--d:1">Do conceito aprovado à feira, em cinco meses.</h2>
+  <div class="gantt r" style="--d:2">
+    <div class="gh"></div><div class="gh">Out</div><div class="gh">Nov</div><div class="gh">Dez</div><div class="gh">Jan</div><div class="gh">Fev</div><div class="gh">Mar</div>
+    <div class="gl">Aprovação do conceito, KV e layout</div><div class="gt"><i style="--s:0;--e:.95"></i></div>
+    <div class="gl">Contratação da montadora</div><div class="gt"><i style="--s:.4;--e:1"></i></div>
+    <div class="gl">Projeto executivo e aprovação na organizadora</div><div class="gt"><i style="--s:1;--e:2"></i></div>
+    <div class="gl">Comunicação visual e conteúdo de AR</div><div class="gt"><i style="--s:1;--e:4"></i></div>
+    <div class="gl">Produção de mobiliário, expositores e bancadas</div><div class="gt"><i style="--s:2;--e:4.2"></i></div>
+    <div class="gl">Brindes, uniformes e kits de amostras</div><div class="gt"><i style="--s:2;--e:4"></i></div>
+    <div class="gl">Pré-divulgação e agenda do ateliê</div><div class="gt"><i style="--s:3;--e:4.7"></i></div>
+    <div class="gl">Treinamento da equipe e dos instrutores</div><div class="gt"><i style="--s:4;--e:4.55"></i></div>
+    <div class="gl">Montagem, iluminação e testes</div><div class="gt"><i style="--s:4.45;--e:4.7"></i></div>
+    <div class="gl hi">Haus Decor Show 2027 · 22 a 26 fev</div><div class="gt"><i class="ev" style="--s:4.7;--e:4.86"></i></div>
+    <div class="gl">Relatório pós-feira: leads, conteúdo e aprendizados</div><div class="gt"><i style="--s:5;--e:5.6"></i></div>
   </div>
+  <p class="src mt1 r" style="--d:3">O conceito precisa ser aprovado e a montadora contratada até o fim de outubro, por causa das férias coletivas de dezembro e do Carnaval em fevereiro. Ainda falta validar a sustentação dos elementos suspensos, conforme o regulamento do pavilhão.</p>
 </section>
 
-<!-- 15 · ENCERRAMENTO -->
-<section class="slide navy end" data-chap="Próximos passos" data-title="Encerramento">
+<!-- ============ FECHO ============ -->
+<section class="slide navy end" data-chap="Cronograma" data-title="Encerramento">
   <svg class="ribbon" viewBox="0 0 1600 900" preserveAspectRatio="none" aria-hidden="true">
     <path d="M-60 830 C 280 720, 520 905, 820 800 S 1260 690, 1700 760" stroke="url(#gw)" stroke-width="40" pathLength="1"/>
   </svg>
@@ -862,6 +1092,8 @@ em.serif{font-style:italic;font-weight:300}
 </section>
 
 </main>
+
+
 
 
 <script>

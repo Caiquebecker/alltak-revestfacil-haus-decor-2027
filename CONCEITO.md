@@ -25,22 +25,21 @@ Mais do que lançar uma linha de revestimentos, o stand posiciona o RevestFácil
 
 ---
 
-## Manifesto (versão curta, para vídeo, painel e redes)
+## Manifesto (sem nome nem imagem, abre caminho para o KV)
 
-Uma parede não é ponto final.
-Um armário não é para sempre.
-Toda superfície é um ponto de partida.
+Toda casa é feita de camadas.
 
-Durante muito tempo, renovar significou obra, pó, espera e medo de errar.
-RevestFácil muda isso: sem quebrar nada, só uma nova camada.
+A cor que alguém escolheu. O armário que veio com o apartamento. A parede que ninguém teve coragem de mudar.
 
-Na Haus Decor, a gente não vai só dizer que é fácil.
-Vai entregar o rolo, a espátula e o desafio.
+Por muito tempo, renovar foi sinônimo de apagar: quebrar, demolir, começar do zero. Obra, pó, espera e medo de errar.
 
-Porque fazer você mesmo não é fazer de qualquer jeito.
-É criar do seu jeito.
+Mas uma superfície não é ponto final. É ponto de partida.
 
-**Nova Camada. Toda superfície merece uma.**
+E se, em vez de apagar, a gente pudesse acrescentar? Sem quebrar nada. Com as próprias mãos. Do próprio jeito.
+
+Transformar não é destruir. **É escrever por cima, com mais beleza.**
+
+*(Próxima tela: KV · Nova Camada. Toda superfície merece uma nova camada.)*
 
 ---
 

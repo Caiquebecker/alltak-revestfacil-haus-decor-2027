@@ -4,23 +4,28 @@ Esta é uma apresentação comercial interativa, em HTML, da **proposta de stand
 
 O texto completo do conceito criativo está em [CONCEITO.md](CONCEITO.md).
 
-## Roteiro (15 telas)
+## Roteiro (21 telas)
 
-1. **Capa**
-2. **A feira:** Haus Decor Show, edição 2027 e números de 2025.
-3. **Edição 2025:** Harmonize | Revela.
-4. **Edição 2026:** Casa em Movimento.
-5. **2027, o salto:** comparativo 2025 → 2026 → 2027.
-6. **Conceito:** Nova Camada.
-7. **Manifesto**
-8. **Pilares do conceito**
-9. **Visão geral e planta:** os pontos numerados levam a cada atributo.
-10. **Testeira e balcão**
-11. **Expositores giratórios e vitrine curva**
-12. **Ateliê Nova Camada**
-13. **Lounge e volume:** estoque, copa e parede Alltak.
-14. **Próximos passos**
-15. **Encerramento**
+1. **Capa**, sem revelar o conceito
+2. **A feira:**
+   - Haus Decor como feira de design.
+   - Como foi nos últimos anos (2023–2027).
+   - Inspiração: galeria de stands de 2026 e tendências.
+   - Público, com destaque para o público feminino.
+3. **Nossa história com a Alltak:**
+   - 2025: a estreia em 15 dias.
+   - 2026: problemas resolvidos e o ponto de atenção do RP.
+   - O que levamos para 2027.
+4. **O desafio:** lançar o RevestFácil numa feira de design.
+5. **Manifesto**, sem nome nem imagem.
+6. **Tema 2027 · KV Nova Camada:** duas opções (A, Camadas em movimento; B, O canto que descola).
+7. **O stand:** perspectiva, frontal, lateral e planta.
+8. **Experiência em AR:** espaço reservado.
+9. **Diferenciais do stand:** duas telas.
+10. **Cronograma de execução**
+11. **Encerramento**
+
+As fotos de stands de outras marcas vêm da galeria oficial da Haus Decor Show 2026 (© NürnbergMesse Brasil). Elas são exibidas direto do site da feira, com crédito.
 
 ## Estrutura
 
@@ -46,7 +51,7 @@ serve.ps1             servidor local opcional (http://localhost:8766/docs/)
 - Nos slides de visão geral e planta, os pontos numerados levam ao detalhe de cada atributo.
 
 **Outros recursos**
-- Deep link: `#s9` abre a tela 9.
+- Deep link: `#s13` abre a tela 13.
 - Em telas de até 820 px, a apresentação vira rolagem vertical.
 
 ## Fontes dos dados
