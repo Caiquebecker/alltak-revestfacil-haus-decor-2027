@@ -1,4 +1,4 @@
-# Desenrola · Alltak RevestFácil · Haus Decor 2027
+# Nova Camada · Alltak RevestFácil · Haus Decor 2027
 
 Esta é uma apresentação comercial interativa, em HTML, da **proposta de stand da Alltak RevestFácil para a Haus Decor Show 2027**. Ela vai de 22 a 26 de fevereiro de 2027, no São Paulo Expo, e foi produzida pela 75LAB. O projeto arquitetônico é da 3DBG.
 
@@ -11,13 +11,13 @@ O texto completo do conceito criativo está em [CONCEITO.md](CONCEITO.md).
 3. **Edição 2025:** Harmonize | Revela.
 4. **Edição 2026:** Casa em Movimento.
 5. **2027, o salto:** comparativo 2025 → 2026 → 2027.
-6. **Conceito:** Desenrola.
+6. **Conceito:** Nova Camada.
 7. **Manifesto**
 8. **Pilares do conceito**
 9. **Visão geral e planta:** os pontos numerados levam a cada atributo.
 10. **Testeira e balcão**
 11. **Expositores giratórios e vitrine curva**
-12. **Oficina Desenrola**
+12. **Ateliê Nova Camada**
 13. **Lounge e volume:** estoque, copa e parede Alltak.
 14. **Próximos passos**
 15. **Encerramento**
