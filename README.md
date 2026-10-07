@@ -4,23 +4,26 @@ Esta é uma apresentação comercial interativa, em HTML, da **proposta de stand
 
 O texto completo do conceito criativo está em [CONCEITO.md](CONCEITO.md).
 
-## Roteiro (15 telas)
+## Roteiro (18 telas)
 
-1. **Capa**, sem revelar o conceito
-2. **A feira:** feira de design, como foi de 2023 a 2027.
-3. **Inspiração:** galeria de stands de 2026 e tendências.
-4. **Público**, com destaque para o público feminino.
-5. **2025:** a estreia em 15 dias.
-6. **2026:** problemas resolvidos e o ponto de atenção do RP.
-7. **O desafio:** lançar o RevestFácil numa feira de design.
-8. **Manifesto**, sem nome nem imagem.
-9. **KV Nova Camada:** duas opções lado a lado.
-10. **Vistas do stand:** perspectiva, frontal e lateral.
-11. **Planta** e setorização.
-12. **Experiência em AR:** visualizador 3D incorporado, QR code e link (projetos.75lab.com.br/ar/alltak-stand-revest-facil).
-13. **Diferenciais do stand**
-14. **Cronograma de execução**
-15. **Encerramento**
+1. **Capa**: "O lançamento de RevestFácil", sem revelar o conceito
+2. **Haus Decor Show:** uma feira de design, não de balcão.
+3. **Como foi nos últimos anos** (2023–2027)
+4. **Números da feira:** público, mídia e expositores.
+5. **Inspiração:** galeria de stands de 2026.
+6. **Tendências** do Book 2026
+7. **Público**, com destaque para o público feminino.
+8. **2025:** a estreia em 15 dias.
+9. **2026:** problemas resolvidos e o ponto de atenção do RP.
+10. **O desafio:** lançar RevestFácil numa feira de design.
+11. **Manifesto**, sem nome nem imagem.
+12. **KV Nova Camada:** duas opções.
+13. **Vistas do stand**
+14. **Planta** e setorização.
+15. **Experiência em AR:** visualizador 3D, QR code e link.
+16. **Diferenciais do stand**
+17. **Cronograma de execução**, por data, de 07/10/2026 ao relatório pós-feira.
+18. **Encerramento**
 
 As fotos de stands de outras marcas vêm da galeria oficial da Haus Decor Show 2026 (© NürnbergMesse Brasil). Elas são exibidas direto do site da feira, com crédito.
 
@@ -48,7 +51,7 @@ serve.ps1             servidor local opcional (http://localhost:8766/docs/)
 - Nos slides de visão geral e planta, os pontos numerados levam ao detalhe de cada atributo.
 
 **Outros recursos**
-- Deep link: `#s12` abre a tela 12 (AR).
+- Deep link: `#s15` abre a tela 15 (AR).
 - Em telas de até 820 px, a apresentação vira rolagem vertical.
 
 ## Fontes dos dados
