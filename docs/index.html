@@ -674,6 +674,42 @@ em.serif{font-style:italic;font-weight:300}
   .kvslot-wrap{container-type:normal;display:block}
   .kvslot{width:100%}
 }
+/* números da feira · editorial */
+.nm{display:grid;grid-template-columns:1.15fr 1fr;gap:calc(var(--u)*3.4);flex:1;min-height:0}
+.nm-l{display:flex;flex-direction:column;min-height:0}
+.nm-l .h1{font-size:calc(var(--u)*3.7);max-width:20ch}
+.nm-rows{display:grid;gap:calc(var(--u)*1.7);margin-top:calc(var(--u)*2.6)}
+.nm-row{display:grid;grid-template-columns:calc(var(--u)*7) 1fr 1fr;gap:calc(var(--u)*1.6);align-items:center;padding-top:calc(var(--u)*1.5);border-top:1px solid rgba(255,255,255,.16)}
+.nm-row .k{color:var(--wood2);align-self:start;padding-top:.5em}
+.nm-it{display:grid;grid-template-columns:auto;gap:.3em;min-width:0}
+.nm-it b{font:800 calc(var(--u)*3.4)/.95 var(--f-d);letter-spacing:-.04em;color:#fff}
+.nm-it>span{font-size:max(12px,calc(var(--u)*.84));line-height:1.35;opacity:.78}
+.nm-it .up{display:inline-block;margin-top:.35em;font:600 max(10px,calc(var(--u)*.72))/1 var(--f-m);font-style:normal;letter-spacing:.06em;color:var(--navy);background:var(--wood2);padding:.35em .6em;border-radius:99px;opacity:1}
+.nm-it.ring{grid-template-columns:calc(var(--u)*5.2) 1fr;column-gap:calc(var(--u)*1);align-items:center}
+.nm-it.ring svg{grid-row:span 2;width:100%;transform:rotate(-90deg)}
+.nm-it.ring b{font-size:calc(var(--u)*2.9);align-self:end}
+.nm-it.ring>span{align-self:start}
+.nm-it.ring circle{fill:none;stroke-width:3.2}
+.nm-it.ring .bg{stroke:rgba(255,255,255,.14)}
+.nm-it.ring .fg{stroke:var(--wood2);stroke-linecap:round;stroke-dasharray:0 100;transition:stroke-dasharray 1.4s var(--ease) .5s}
+.slide.on .nm-it.ring .fg{stroke-dasharray:var(--p) 100}
+.nm-hero{position:relative;border-radius:calc(var(--u)*.8);overflow:hidden;min-height:0;cursor:zoom-in;background:#0b1a3a}
+.nm-hero img{width:100%;height:100%;object-fit:cover}
+.nm-hero::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,22,66,.92) 0%,rgba(0,22,66,.35) 45%,rgba(0,22,66,0) 70%)}
+.nm-big{position:absolute;left:calc(var(--u)*2);right:calc(var(--u)*2);bottom:calc(var(--u)*2.2);z-index:2}
+.nm-big b{display:block;font:800 calc(var(--u)*8.5)/.85 var(--f-d);letter-spacing:-.05em;color:var(--wood2)}
+.nm-big b small{font-size:.38em;letter-spacing:-.02em;color:#fff}
+.nm-big>span{display:block;margin-top:calc(var(--u)*.9);font-size:max(13px,calc(var(--u)*1));line-height:1.4;color:#fff;max-width:34ch}
+.nm-hero figcaption{position:absolute;right:calc(var(--u)*1);top:calc(var(--u)*1);z-index:2;font:500 max(9px,calc(var(--u)*.6))/1 var(--f-m);letter-spacing:.08em;text-transform:uppercase;color:#fff;background:rgba(0,22,66,.55);padding:.5em .7em;border-radius:99px}
+@media (max-width:820px),(max-height:520px) and (max-width:1000px){
+  .nm{grid-template-columns:1fr}
+  .nm-row{grid-template-columns:1fr 1fr}
+  .nm-row .k{grid-column:1 / -1}
+  .nm-it b{font-size:28px}
+  .nm-hero{aspect-ratio:4/5}
+  .nm-big b{font-size:64px}
+  .nm-it.ring .fg{stroke-dasharray:var(--p) 100}
+}
 @media (prefers-reduced-motion:reduce){
   .r,.rz,.ribbon path,.journey svg.path path{opacity:1!important;transform:none!important;animation:none!important;stroke-dashoffset:0!important}
   .slide{transition:none}
@@ -783,20 +819,40 @@ em.serif{font-style:italic;font-weight:300}
 </section>
 
 <section class="slide navy" data-chap="A feira" data-title="Números da feira">
-  <p class="eyebrow r">A feira · o tamanho da vitrine</p>
-  <h2 class="h1 r mt1" style="--d:1;max-width:24ch">Uma vitrine que gera público, mídia e negócio.</h2>
-  <div class="stats s8">
-    <div class="stat hi r" style="--d:2"><div class="n"><span data-count="82">0</span><small>mil+</small></div><p>visitações em 2025, somando Haus Decor e Expo Revestir</p></div>
-    <div class="stat r" style="--d:3"><div class="n"><span data-count="67344">0</span></div><p>visitantes únicos em 2025, <b style="color:#fff">+21%</b> sobre 2024</p></div>
-    <div class="stat r" style="--d:4"><div class="n"><span data-count="1248">0</span></div><p>visitantes internacionais, de 68 países</p></div>
-    <div class="stat r" style="--d:5"><div class="n"><span data-count="80">0</span><small>+</small></div><p>expositores em 2025. Para 2027 são mais de 70 marcas previstas</p></div>
-    <div class="stat r" style="--d:6"><div class="n"><span data-count="130">0</span><small>+</small></div><p>menções espontâneas na mídia em 2025, valoradas em cerca de R$ 650 mil</p></div>
-    <div class="stat r" style="--d:7"><div class="n"><span data-count="1">0</span><small>,7 mi</small></div><p>de alcance no Instagram durante a edição 2025</p></div>
-    <div class="stat r" style="--d:8"><div class="n"><span data-count="86">0</span><small>%</small></div><p>dos expositores ficaram satisfeitos com o perfil do público</p></div>
-    <div class="stat r" style="--d:9"><div class="n"><span data-count="90">0</span><small>%</small></div><p>dos expositores pretendiam voltar na edição seguinte</p></div>
+  <div class="nm">
+    <div class="nm-l">
+      <p class="eyebrow r">A feira · o tamanho da vitrine</p>
+      <h2 class="h1 r mt1" style="--d:1">Uma vitrine que gera <span class="w">público</span>, <span class="hl">mídia</span> e negócio.</h2>
+      <div class="nm-rows">
+        <div class="nm-row r" style="--d:2">
+          <p class="k">Público</p>
+          <div class="nm-it"><b><span data-count="67344">0</span></b><span>visitantes únicos <i class="up">▲ 21% sobre 2024</i></span></div>
+          <div class="nm-it"><b><span data-count="1248">0</span></b><span>internacionais, de 68 países</span></div>
+        </div>
+        <div class="nm-row r" style="--d:3">
+          <p class="k">Mídia</p>
+          <div class="nm-it"><b><span data-count="130">0</span>+</b><span>menções espontâneas, cerca de R$ 650 mil em mídia</span></div>
+          <div class="nm-it"><b><span data-count="1">0</span>,7 mi</b><span>de alcance no Instagram</span></div>
+        </div>
+        <div class="nm-row r" style="--d:4">
+          <p class="k">Negócio</p>
+          <div class="nm-it ring"><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="15.9" class="bg"/><circle cx="18" cy="18" r="15.9" class="fg" style="--p:86"/></svg><b><span data-count="86">0</span>%</b><span>dos expositores satisfeitos com o público</span></div>
+          <div class="nm-it ring"><svg viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="15.9" class="bg"/><circle cx="18" cy="18" r="15.9" class="fg" style="--p:90"/></svg><b><span data-count="90">0</span>%</b><span>pretendiam voltar na edição seguinte</span></div>
+        </div>
+      </div>
+    </div>
+    <figure class="nm-hero rz" style="--d:1" data-lb data-cap="Vila das Cores · Haus Decor Show 2026 · foto: NürnbergMesse Brasil">
+      <img src="https://home.hausdecorshow.com.br/wp-content/uploads/2026/03/HausDecor-2026-35.webp" alt="Corredor da Haus Decor 2026 com fluxo de visitantes" loading="lazy">
+      <div class="nm-big">
+        <b><span data-count="82">0</span><small> mil+</small></b>
+        <span>visitações em 2025, somando Haus Decor e Expo Revestir, com mais de 80 expositores</span>
+      </div>
+      <figcaption>Foto: Haus Decor 2026 · NürnbergMesse Brasil</figcaption>
+    </figure>
   </div>
-  <p class="src mt2 r" style="--d:10">Fonte: relatório pós-show Haus Decor 2025 (NürnbergMesse Brasil), pp. 4, 9 e 18. A visitação é publicada somada à Expo Revestir. O balanço de 2026 ainda não foi divulgado.</p>
+  <p class="src mt1 r" style="--d:5">Fonte: relatório pós-show Haus Decor 2025 (NürnbergMesse Brasil), pp. 4, 9 e 18. A visitação é publicada somada à Expo Revestir. O balanço de 2026 ainda não foi divulgado.</p>
 </section>
+
 
 <section class="slide" data-chap="A feira" data-title="Inspiração">
   <div class="gal-wrap">
