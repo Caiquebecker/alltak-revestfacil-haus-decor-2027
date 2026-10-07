@@ -39,7 +39,7 @@ Mas uma superfície não é ponto final. É ponto de partida.
 
 E se, em vez de apagar, a gente pudesse acrescentar? Sem quebrar nada. Sem perder o que já foi vivido. Com as próprias mãos. Do nosso próprio jeito.
 
-Transformar não é destruir. **É escrever por cima uma história ainda mais bonita.**
+Transformar não é destruir. **É escrever por cima uma nova história, uma nova camada.**
 
 *(Próxima tela: KV · Nova Camada. Toda superfície merece uma nova camada.)*
 
