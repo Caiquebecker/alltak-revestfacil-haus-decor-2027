@@ -20,8 +20,8 @@ O texto completo do conceito criativo está em [CONCEITO.md](CONCEITO.md).
 12. **KV Nova Camada:** espaço reservado para a arte final, em 16:9 (1920 × 1080 px). Para inserir, troque o conteúdo de `#kvSlot` em `docs/index.html` por `<img src="assets/img/kv/kv-nova-camada.jpg">`.
 13. **Vistas do stand**
 14. **Planta** e setorização.
-15. **Experiência em AR:** visualizador 3D, QR code e link.
-16. **Diferenciais do stand**
+15. **Diferenciais do stand**
+16. **Experiência em AR:** visualizador 3D, QR code e link.
 17. **Cronograma de execução**, por data, de 07/10/2026 ao relatório pós-feira.
 18. **Encerramento**
 
@@ -51,7 +51,7 @@ serve.ps1             servidor local opcional (http://localhost:8766/docs/)
 - Nos slides de visão geral e planta, os pontos numerados levam ao detalhe de cada atributo.
 
 **Outros recursos**
-- Deep link: `#s15` abre a tela 15 (AR).
+- Deep link: `#s16` abre a tela 16 (AR).
 - Em telas de até 820 px, a apresentação vira rolagem vertical.
 
 ## Fontes dos dados
