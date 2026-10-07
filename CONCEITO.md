@@ -27,15 +27,17 @@ Mais do que lançar uma linha de revestimentos, o stand posiciona o RevestFácil
 
 ## Manifesto (sem nome nem imagem, abre caminho para o KV)
 
-Toda casa é feita de camadas.
+**Toda casa é feita de camadas. A vida também.**
 
 A cor que alguém escolheu. O armário que veio com o apartamento. A parede que ninguém teve coragem de mudar.
+
+E, por baixo de cada uma, uma história: o primeiro café na casa nova, a chegada de alguém, um recomeço.
 
 Por muito tempo, renovar foi sinônimo de apagar: quebrar, demolir, começar do zero. Obra, pó, espera e medo de errar.
 
 Mas uma superfície não é ponto final. É ponto de partida.
 
-E se, em vez de apagar, a gente pudesse acrescentar? Sem quebrar nada. Com as próprias mãos. Do próprio jeito.
+E se, em vez de apagar, a gente pudesse acrescentar? Sem quebrar nada. Sem perder o que já foi vivido. Com as próprias mãos. Do próprio jeito.
 
 Transformar não é destruir. **É escrever por cima, com mais beleza.**
 
