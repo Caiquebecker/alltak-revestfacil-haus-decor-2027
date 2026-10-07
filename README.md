@@ -6,7 +6,7 @@ O texto completo do conceito criativo está em [CONCEITO.md](CONCEITO.md).
 
 ## Roteiro (18 telas)
 
-1. **Capa**: "O lançamento de RevestFácil", sem revelar o conceito
+1. **Capa**: "Lançamento de RevestFácil", sem revelar o conceito
 2. **Haus Decor Show:** uma feira de design, não de balcão.
 3. **Como foi nos últimos anos** (2023–2027)
 4. **Números da feira:** público, mídia e expositores.
