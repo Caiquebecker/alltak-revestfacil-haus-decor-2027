@@ -17,7 +17,7 @@ O texto completo do conceito criativo está em [CONCEITO.md](CONCEITO.md).
 9. **2026:** problemas resolvidos e o ponto de atenção do RP.
 10. **O desafio:** lançar RevestFácil numa feira de design.
 11. **Manifesto**, sem nome nem imagem.
-12. **KV Nova Camada:** duas opções.
+12. **KV Nova Camada:** espaço reservado para a arte final, em 16:9 (1920 × 1080 px). Para inserir, troque o conteúdo de `#kvSlot` em `docs/index.html` por `<img src="assets/img/kv/kv-nova-camada.jpg">`.
 13. **Vistas do stand**
 14. **Planta** e setorização.
 15. **Experiência em AR:** visualizador 3D, QR code e link.
