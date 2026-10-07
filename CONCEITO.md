@@ -37,9 +37,9 @@ Por muito tempo, renovar foi sinônimo de apagar: quebrar, demolir, começar do 
 
 Mas uma superfície não é ponto final. É ponto de partida.
 
-E se, em vez de apagar, a gente pudesse acrescentar? Sem quebrar nada. Sem perder o que já foi vivido. Com as próprias mãos. Do próprio jeito.
+E se, em vez de apagar, a gente pudesse acrescentar? Sem quebrar nada. Sem perder o que já foi vivido. Com as próprias mãos. Do nosso próprio jeito.
 
-Transformar não é destruir. **É escrever por cima, com mais beleza.**
+Transformar não é destruir. **É escrever por cima uma história ainda mais bonita.**
 
 *(Próxima tela: KV · Nova Camada. Toda superfície merece uma nova camada.)*
 
